@@ -1,0 +1,30 @@
+.container-fluid{
+    min-height: 100vh;
+    /* min-width: 100vh; */ 
+    padding: 5vh;
+    text-align: justify;
+}
+
+#page-auth{
+    background: no-repeat center fixed;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: attachement;
+	background-position: top center;
+}
+
+#page-auth{
+    padding-top: 15vh;
+    padding-left: 5vh;
+}
+
+
+html, body{
+    margin:0;
+    padding:0;
+}
+
+footer{
+    color: white;
+}
