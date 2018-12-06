@@ -51,7 +51,7 @@ class Command(object):
         cmd_ack = OrderedDict()
         cmd_ack["destination"] = self.cmd["source"]
         cmd_ack["source"] = self.cmd["destination"]
-        cmd_ack["type"] = CmdTypes.ACK
+        cmd_ack["type"] = CommandTypes.ACK
         cmd_ack["name"] = self.cmd["name"]
         cmd_ack["payload"] = self.cmd["payload"]
 
@@ -76,7 +76,7 @@ class Command(object):
         print("\t Name : {}".format(self.cmd["name"]))
         print("\t Payload : {}".format(self.cmd["payload"]))
 
-class CmdTypes(object):
+class CommandTypes(object):
     PUSH = "PUSH"
     GET = "GET"
     ACK = "ACK"

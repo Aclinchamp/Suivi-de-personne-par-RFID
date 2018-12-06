@@ -1,8 +1,12 @@
 #coding: utf-8
-from command import Command, CmdTypes
+from command import Command, CommandTypes
 from collections import OrderedDict
 import sys
 import parser
+from interfaceMqtt import InterfaceMqtt as intfMqtt
+from logger import Logger, LogLevel
+from interfaceReader import InterfaceTagReader
+import time
 
 sys.path.append("../res")
 import setting
@@ -29,7 +33,35 @@ def main():
 
     '''
 
+    '''
     parser.getCommandFromJson()
+    '''
+    print("[Core] Create logger")
+    logger = Logger()
 
+    Logger.log(LogLevel.DEBUG, "CORE", "Create interfaces threads")
+    intf_mqtt = intfMqtt()
+    reader = InterfaceTagReader()
+    Logger.log(LogLevel.DEBUG, "CORE", "starting")
+    intf_mqtt.start()
+    reader.start()
+
+    Logger.log(LogLevel.DEBUG, "CORE", "wait 60 second")
+    for i in range(30):
+        if(i%5 == 0):
+            Logger.log(LogLevel.DEBUG, "CORE", "Remaining time : {}".format(30 - i))
+        time.sleep(1)
+
+    intf_mqtt.stop()
+    reader.stop()
+
+    Logger.log(LogLevel.DEBUG, "CORE", "Stop was sended")
+    
+    
+    intf_mqtt.join()
+    reader.join()
+    
+    Logger.log(LogLevel.INFO, "CORE", "Core is down")
+    
 if __name__ == "__main__":
     main()

@@ -44,15 +44,15 @@ class InterfaceMqtt(threading.Thread):
                 self.mqttClient.publish("gestion", "Ceci est un message")
                 time.sleep(5)
 
-            Logger.log(LogLevel.DEBUG, "INTF MQTT", "Threads was stopped\n")
+            Logger.log(LogLevel.DEBUG, "INTF MQTT", "Thread was stopped\n")
             self.mqttClient.disconnect()
             self.mqttClient.loop_stop()
 
         except IOError as e_io_mqtt_init:
-            Logger.log(LogLevel.DEBUG, "INTF MQTT", "couldn't initialize mqtt connexion : {}".format(e_mqtt_init))
+            Logger.log(LogLevel.ERROR, "INTF MQTT", "couldn't initialize mqtt connexion : {}".format(e_mqtt_init))
             raise IOError("[INTF MQTT] couldn't initialize mqtt connexion : {}".format(e_mqtt_init))
         except Exception as e_mqtt_init:
-            Logger.log(LogLevel.DEBUG, "INTF MQTT", "couldn't initialise mqtt connexion : {}".format(e_mqtt_init)) 
+            Logger.log(LogLevel.ERROR, "INTF MQTT", "couldn't initialise mqtt connexion : {}".format(e_mqtt_init)) 
 
 
     def on_connect(self, client, userdata, flags, returnCode):
