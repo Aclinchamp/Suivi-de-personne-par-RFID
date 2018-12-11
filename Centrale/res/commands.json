@@ -1,0 +1,71 @@
+{
+    "commands":[
+       {
+            "cmdName": "keepAlive",
+            "cmdType": "push",
+            "fields": [
+                {
+                    "fieldName": "isAlive",
+                    "fieldType": "string"
+                }
+            ]
+       },
+       {
+            "cmdName": "position",
+            "cmdType": "push",
+            "fields": [
+                {
+                    "fieldName": "position",
+                    "fieldType": "string"
+                },
+                {
+                    "fieldName": "tagNumber",
+                    "fieldType": "string"
+                },
+                {
+                    "fieldName": "date",
+                    "fieldType": "string"
+                }
+            ]
+        },
+        {
+             "cmdName": "status",
+             "cmdType": "get",
+             "fields": [
+                 {
+                     "fieldName": "status",
+                     "fieldType": "string"
+                 }
+             ]
+         },
+         {
+              "cmdName": "version",
+              "cmdType": "get",
+              "fields": [
+                  {
+                      "fieldName": "version",
+                      "fieldType": "string"
+                  }
+              ]
+          },
+          {
+            "cmdName": "configuration",
+            "cmdType": "get",
+            "fields": [
+                {
+                    "fieldName": "name",
+                    "fieldType": "string"
+                },
+                {
+                    "fieldName": "location",
+                    "fieldType": "string"
+                },
+                {
+                    "fieldName": "ip",
+                    "fieldType": "string"
+                }   
+            ]
+        } 
+    ]
+    
+}

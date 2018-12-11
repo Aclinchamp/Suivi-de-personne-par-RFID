@@ -49,6 +49,7 @@ def createJsonPaquet():
 if __name__ == "__main__":
     main()
 
+
 '''
 on utilise l'instruction dumps pour jsoniser
 et l'instruction loads pour dejisoniser

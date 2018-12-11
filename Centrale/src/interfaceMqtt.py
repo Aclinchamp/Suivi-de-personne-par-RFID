@@ -46,23 +46,21 @@ class InterfaceMqtt(threading.Thread):
             raise IOError("[INTF MQTT] couldn't initialize mqtt connexion : {}".format(e_mqtt_init))
         except Exception as e_mqtt_init:
             Logger.log(LogLevel.ERROR, "INTF MQTT", "couldn't initialise mqtt connexion : {}".format(e_mqtt_init)) 
-                
+            
         while(self.keepRunning):
-           
-            # all networkd events are processing into callback
+        # all networkd events are processing into callback
+            
             if(self.fifo_fromCore.empty() == False):
-
                 self.cmd = self.fifo_fromCore.get(False)
                 Logger.log(LogLevel.DEBUG, "INTF MQTT", "Try to send : {}".format(self.cmd.getJsonCmd()))
                 self.mqttClient.publish(self.cmd.getDestination(), self.cmd.getJsonCmd())
 
             time.sleep(0.25)
-
+        
         Logger.log(LogLevel.DEBUG, "INTF MQTT", "Thread was stopped\n")
         self.mqttClient.disconnect()
         self.mqttClient.loop_stop()
 
-        
 
 
     def on_connect(self, client, userdata, flags, returnCode):
@@ -85,12 +83,11 @@ class InterfaceMqtt(threading.Thread):
         
 
     def on_message(self, client, userdata, msg):
-        #Logger.log(LogLevel.DEBUG, "INTF MQTT", "Received : {} {}".format(msg.payload, client))
 
         recvMsg = Command("", "", "", "")
-        recvMsg.setCmdFromJson(msg.payload)
+        recvMsg.setCmdFromJson(msg.payload.decode("utf-8"))
 
-        Logger.log(LogLevel.DEBUG, "INTF MQTT", "Received message {} : {} : {}".format(recvMsg.getSource() , recvMsg.getName, recvMsg.getPayload))
+        Logger.log(LogLevel.DEBUG, "INTF MQTT", "Received message => {} : {} : {} : {}".format(recvMsg.getSource() , recvMsg.getType(), recvMsg.getName(), recvMsg.getPayload()))
         self.fifo_2core.put(recvMsg)
         #recvMsg.printCmd()
 
@@ -100,4 +97,6 @@ class InterfaceMqtt(threading.Thread):
 
     def stop(self):
         self.keepRunning = False
+
+
 

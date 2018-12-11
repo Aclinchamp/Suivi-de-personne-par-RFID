@@ -5,11 +5,12 @@ import sys
 import parser
 from interfaceMqtt import InterfaceMqtt as intfMqtt
 from logger import Logger, LogLevel
-from interfaceReader import InterfaceTagReader
+#from interfaceReader import InterfaceTagReader
 import time
-
+from queue import Queue
 sys.path.append("../res")
 import setting
+
 def main():
     '''
     cmd = Command("GESTION", CmdTypes.PUSH, "position", "EB1234567890")
@@ -36,30 +37,41 @@ def main():
     '''
     parser.getCommandFromJson()
     '''
+
+    fifo_mqtt2core = Queue()
+    fifo_core2mqtt = Queue()
+
+
     print("[Core] Create logger")
     logger = Logger()
 
     Logger.log(LogLevel.DEBUG, "CORE", "Create interfaces threads")
-    intf_mqtt = intfMqtt()
-    reader = InterfaceTagReader()
+    mqtt = intfMqtt(fifo_mqtt2core, fifo_core2mqtt)
+    
+    #reader = InterfaceTagReader()
     Logger.log(LogLevel.DEBUG, "CORE", "starting")
-    intf_mqtt.start()
-    reader.start()
+    mqtt.start()
+    #reader.start()
 
-    Logger.log(LogLevel.DEBUG, "CORE", "wait 60 second")
-    for i in range(30):
-        if(i%5 == 0):
-            Logger.log(LogLevel.DEBUG, "CORE", "Remaining time : {}".format(30 - i))
-        time.sleep(1)
+    while(mqtt.connected == False):
+        time.sleep(0.25)
+        
 
-    intf_mqtt.stop()
-    reader.stop()
+    Logger.log(LogLevel.DEBUG, "CORE", "before command")
+   
+    cmd = Command("gestion", "push", "position", "jenesaispas")
+    fifo_core2mqtt.put(cmd)
+    
+    time.sleep(10)
+
+    mqtt.stop()
+    #reader.stop()
 
     Logger.log(LogLevel.DEBUG, "CORE", "Stop was sended")
     
     
-    intf_mqtt.join()
-    reader.join()
+    mqtt.join()
+    #reader.join()
     
     Logger.log(LogLevel.INFO, "CORE", "Core is down")
     

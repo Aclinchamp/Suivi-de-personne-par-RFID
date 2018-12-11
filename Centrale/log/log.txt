@@ -1,0 +1,406 @@
+
+2018-12-06 16:24:41,408 :: DEBUG :: [CORE] create object
+2018-12-06 16:24:41,408 :: DEBUG :: [CORE] starting
+2018-12-06 16:24:41,408 :: DEBUG :: [CORE] wait 60 second
+2018-12-06 16:24:41,409 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-06 16:24:41,665 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-06 16:24:41,667 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-06 16:24:42,666 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 16:24:42,668 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 16:24:46,432 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-06 16:24:47,673 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 16:24:47,674 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 16:24:51,453 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-06 16:24:52,679 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 16:24:52,680 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 16:24:56,470 :: DEBUG :: [CORE] Remaining time : 15
+2018-12-06 16:24:57,685 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 16:24:57,686 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 16:25:01,493 :: DEBUG :: [CORE] Remaining time : 10
+2018-12-06 16:25:02,691 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 16:25:02,692 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 16:25:06,512 :: DEBUG :: [CORE] Remaining time : 5
+2018-12-06 16:25:07,697 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 16:25:07,698 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 16:25:11,538 :: DEBUG :: [CORE] Stop was sended
+2018-12-06 16:25:12,703 :: DEBUG :: [INTF MQTT] Threads was stopped
+
+2018-12-06 18:35:43,360 :: DEBUG :: [CORE] create object
+2018-12-06 18:35:43,361 :: DEBUG :: [CORE] starting
+2018-12-06 18:35:43,361 :: DEBUG :: [CORE] wait 60 second
+2018-12-06 18:35:43,362 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-06 18:35:43,615 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-06 18:35:43,619 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-06 18:35:44,621 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 18:35:44,622 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 18:35:48,380 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-06 18:35:49,627 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 18:35:49,628 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 18:35:53,402 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-06 18:35:54,633 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 18:35:54,634 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 18:35:58,423 :: DEBUG :: [CORE] Remaining time : 15
+2018-12-06 18:35:59,639 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 18:35:59,640 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 18:36:03,446 :: DEBUG :: [CORE] Remaining time : 10
+2018-12-06 18:36:04,645 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 18:36:04,646 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 18:36:08,473 :: DEBUG :: [CORE] Remaining time : 5
+2018-12-06 18:36:09,646 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-06 18:36:09,647 :: DEBUG :: [INTF MQTT] Sended
+2018-12-06 18:36:13,499 :: DEBUG :: [CORE] Stop was sended
+2018-12-06 18:36:14,652 :: DEBUG :: [INTF MQTT] Threads was stopped
+
+2018-12-05 20:36:33,109 :: DEBUG :: [CORE] create object
+2018-12-05 20:36:33,179 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:36:33,181 :: DEBUG :: [CORE] starting
+2018-12-05 20:38:41,587 :: DEBUG :: [CORE] create object
+2018-12-05 20:38:41,637 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:38:41,639 :: DEBUG :: [CORE] starting
+2018-12-05 20:38:41,686 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:38:41,956 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:38:42,691 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:38:42,695 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:12,638 :: DEBUG :: [CORE] create object
+2018-12-05 20:39:12,686 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:39:12,687 :: DEBUG :: [CORE] starting
+2018-12-05 20:39:12,703 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:39:12,705 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:39:12,737 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:39:12,739 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:39:17,726 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:17,729 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:22,766 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:22,770 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:27,787 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 20:39:27,790 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:27,795 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:32,829 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:32,833 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:37,849 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:37,857 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:42,893 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-05 20:39:42,895 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:42,904 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:47,914 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:47,924 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:52,957 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:52,966 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:39:57,979 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:39:57,981 :: DEBUG :: [CORE] Remaining time : 15
+2018-12-05 20:39:57,989 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:40:53,485 :: DEBUG :: [CORE] create object
+2018-12-05 20:40:53,496 :: ERROR :: [INTF RFID] couldn't initialise RFID connexion : Device was reset externally
+2018-12-05 20:40:53,497 :: DEBUG :: [CORE] starting
+2018-12-05 20:40:53,501 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:40:53,505 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:40:53,565 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:40:53,570 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:40:54,570 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:40:54,575 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:40:58,516 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 20:40:59,580 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:40:59,584 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:41:03,523 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-05 20:41:04,589 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:41:04,593 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:41:20,707 :: DEBUG :: [CORE] create object
+2018-12-05 20:41:20,754 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:41:20,755 :: DEBUG :: [CORE] starting
+2018-12-05 20:41:20,772 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:41:20,774 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:41:20,809 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:41:20,811 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:42:26,072 :: DEBUG :: [CORE] create object
+2018-12-05 20:42:27,639 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:42:27,641 :: DEBUG :: [CORE] starting
+2018-12-05 20:42:27,658 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:42:27,661 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:42:27,812 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:42:27,817 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:44:51,860 :: DEBUG :: [CORE] create object
+2018-12-05 20:44:53,419 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:44:53,421 :: DEBUG :: [CORE] starting
+2018-12-05 20:44:53,437 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:44:53,439 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:45:43,017 :: DEBUG :: [CORE] create object
+2018-12-05 20:45:45,099 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:45:45,101 :: DEBUG :: [CORE] starting
+2018-12-05 20:45:45,184 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:45:45,186 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:45:45,230 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:45:45,263 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:45:46,235 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:45:46,238 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:45:50,194 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 20:45:51,243 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:45:51,247 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:45:55,202 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-05 20:45:56,252 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:45:56,256 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:46:27,510 :: DEBUG :: [CORE] create object
+2018-12-05 20:46:27,558 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:46:27,560 :: DEBUG :: [CORE] starting
+2018-12-05 20:46:27,575 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:52:31,441 :: DEBUG :: [CORE] create object
+2018-12-05 20:52:33,452 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB1
+2018-12-05 20:52:33,454 :: DEBUG :: [CORE] starting
+2018-12-05 20:52:33,470 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:52:35,901 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:54:30,413 :: DEBUG :: [CORE] create object
+2018-12-05 20:54:30,416 :: ERROR :: [INTF RFID] couldn't initialise RFID connexion : No such file or directory
+2018-12-05 20:54:30,417 :: DEBUG :: [CORE] starting
+2018-12-05 20:54:30,419 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:54:30,421 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:54:59,329 :: DEBUG :: [CORE] create object
+2018-12-05 20:54:59,332 :: ERROR :: [INTF RFID] couldn't initialise RFID connexion : No such file or directory
+2018-12-05 20:54:59,333 :: DEBUG :: [CORE] starting
+2018-12-05 20:54:59,336 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:54:59,338 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:55:48,700 :: DEBUG :: [CORE] create object
+2018-12-05 20:55:48,702 :: ERROR :: [INTF RFID] couldn't initialise RFID connexion : No such file or directory
+2018-12-05 20:55:48,704 :: DEBUG :: [CORE] starting
+2018-12-05 20:55:48,706 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:55:48,708 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:56:37,485 :: DEBUG :: [CORE] create object
+2018-12-05 20:56:37,487 :: ERROR :: [INTF RFID] couldn't initialise RFID connexion : No such file or directory
+2018-12-05 20:56:37,489 :: DEBUG :: [CORE] starting
+2018-12-05 20:56:37,491 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:56:37,493 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:56:42,501 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 20:57:33,793 :: DEBUG :: [CORE] create object
+2018-12-05 20:57:33,862 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:57:33,864 :: DEBUG :: [CORE] starting
+2018-12-05 20:57:33,879 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:57:33,891 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:57:38,940 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 20:57:40,990 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -54
+2018-12-05 20:57:43,983 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-05 20:57:44,025 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -54
+2018-12-05 20:58:10,166 :: DEBUG :: [CORE] create object
+2018-12-05 20:58:11,387 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 20:58:11,389 :: DEBUG :: [CORE] starting
+2018-12-05 20:58:11,413 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 20:58:11,433 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 20:58:11,647 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 20:58:11,665 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 20:58:12,672 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:58:12,700 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:58:16,471 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 20:58:17,505 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -50
+2018-12-05 20:58:17,700 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:58:17,728 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:58:18,518 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -60
+2018-12-05 20:58:21,518 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-05 20:58:22,563 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -57
+2018-12-05 20:58:22,733 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:58:22,762 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:58:23,577 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -53
+2018-12-05 20:58:26,565 :: DEBUG :: [CORE] Remaining time : 15
+2018-12-05 20:58:27,789 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:58:27,823 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:58:28,633 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305017625401397' 1 -52
+2018-12-05 20:58:31,613 :: DEBUG :: [CORE] Remaining time : 10
+2018-12-05 20:58:32,818 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:58:32,851 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:58:35,720 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305017225401395' 1 -52
+2018-12-05 20:58:36,662 :: DEBUG :: [CORE] Remaining time : 5
+2018-12-05 20:58:37,846 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 20:58:37,874 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 20:58:41,806 :: DEBUG :: [CORE] Stop was sended
+2018-12-05 20:58:42,869 :: DEBUG :: [INTF MQTT] Threads was stopped
+
+2018-12-05 21:02:22,720 :: DEBUG :: [CORE] create object
+2018-12-05 21:02:22,766 :: DEBUG :: [INTF RFID] Interface initialised on tty : tmr:///dev/ttyUSB0
+2018-12-05 21:02:22,768 :: DEBUG :: [CORE] starting
+2018-12-05 21:02:22,801 :: DEBUG :: [CORE] wait 60 second
+2018-12-05 21:02:22,808 :: DEBUG :: [CORE] Remaining time : 30
+2018-12-05 21:02:22,992 :: DEBUG :: [INTF MQTT] try to connect to boitier1@192.168.4.1:1883
+2018-12-05 21:02:23,015 :: DEBUG :: [INTF MQTT] Connection etablished on boitier1@192.168.4.1:1883
+2018-12-05 21:02:24,017 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 21:02:24,041 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 21:02:25,850 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -58
+2018-12-05 21:02:26,862 :: INFO :: [INTF RFID] NEW TAG : b'E20040057305016225401378' 1 -46
+2018-12-05 21:02:27,853 :: DEBUG :: [CORE] Remaining time : 25
+2018-12-05 21:02:29,035 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 21:02:29,059 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 21:02:32,896 :: DEBUG :: [CORE] Remaining time : 20
+2018-12-05 21:02:34,048 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 21:02:34,061 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 21:02:37,938 :: DEBUG :: [CORE] Remaining time : 15
+2018-12-05 21:02:39,083 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 21:02:39,112 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 21:02:42,982 :: DEBUG :: [CORE] Remaining time : 10
+2018-12-05 21:02:44,117 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 21:02:44,146 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 21:02:48,023 :: DEBUG :: [CORE] Remaining time : 5
+2018-12-05 21:02:49,146 :: DEBUG :: [INTF MQTT] Try to send : Ceci est un message
+2018-12-05 21:02:49,182 :: DEBUG :: [INTF MQTT] Sended
+2018-12-05 21:02:53,179 :: DEBUG :: [CORE] Stop was sended
+2018-12-05 21:02:53,180 :: DEBUG :: [INTF RFID] Thread was stopped
+2018-12-05 21:02:54,173 :: DEBUG :: [INTF MQTT] Threads was stopped
+
+2018-12-05 21:02:54,187 :: INFO :: [CORE] Core is down
+2018-12-11 15:46:51,848 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 15:46:51,849 :: INFO :: [CORE] Core is down
+2018-12-11 16:09:48,569 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:10:16,387 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:11:34,450 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:24:17,186 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:25:48,588 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:26:50,316 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:28:59,624 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:29:00,835 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on '192.168.4.1:3306' (61 Connection refused)
+2018-12-11 16:31:21,805 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:31:23,151 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on '192.168.4.1:3306' (61 Connection refused)
+2018-12-11 16:32:05,036 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 16:32:06,249 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on '192.168.4.1:3306' (61 Connection refused)
+2018-12-11 17:00:31,603 :: DEBUG :: [CORE] Create interfaces threads
+2018-12-11 17:00:31,632 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+2018-12-11 18:02:19,544 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:02:19,545 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:02:19,559 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+2018-12-11 18:02:35,276 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:02:35,277 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:02:35,277 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:03:48,866 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:03:48,867 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:03:48,868 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:03:49,554 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:03:49,555 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:04:38,668 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:04:38,669 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:04:38,670 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:04:38,992 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:04:38,994 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:05:30,233 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:05:30,234 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:05:30,234 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:05:47,369 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:05:47,371 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:05:47,371 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:05:52,665 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:05:52,669 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:06:13,022 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x104a54550>> : <bound method Command.getPayload of <command.Command object at 0x104a54550>>
+2018-12-11 18:06:13,023 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:07:50,770 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:07:50,771 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:07:50,771 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:07:51,088 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:07:51,090 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:07:53,626 :: ERROR :: [COMMAND] Error while parsing json : Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-12-11 18:07:53,639 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x104281518>> : <bound method Command.getPayload of <command.Command object at 0x104281518>>
+2018-12-11 18:07:53,640 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:09:22,426 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:09:22,427 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:09:22,427 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:09:22,791 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:09:22,793 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:09:25,734 :: ERROR :: [COMMAND] Error while parsing json : Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-12-11 18:09:25,735 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x104a814e0>> : <bound method Command.getPayload of <command.Command object at 0x104a814e0>>
+2018-12-11 18:09:25,735 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:09:55,314 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:09:55,315 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:09:55,316 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:09:55,619 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:09:55,621 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:09:57,459 :: ERROR :: [COMMAND] Error while parsing json : Expecting property name enclosed in double quotes: line 1 column 2 (char 1)
+2018-12-11 18:09:57,459 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x1042b64a8>> : <bound method Command.getPayload of <command.Command object at 0x1042b64a8>>
+2018-12-11 18:09:57,460 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:11:39,874 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:11:39,875 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:11:39,876 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:11:40,232 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:11:40,235 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:11:42,729 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 18:11:42,730 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x104a84898>> : <bound method Command.getPayload of <command.Command object at 0x104a84898>>
+2018-12-11 18:11:42,730 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:12:23,463 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:12:23,463 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:12:23,464 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:12:23,776 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:12:23,780 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:15:36,998 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:15:36,999 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:15:37,000 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:15:37,372 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:15:37,376 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:15:47,142 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 18:15:47,142 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x104a82860>> : <bound method Command.getPayload of <command.Command object at 0x104a82860>>
+2018-12-11 18:15:47,143 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:25:27,718 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:25:27,719 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:25:27,720 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:25:43,072 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:25:43,073 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:25:43,074 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:25:51,062 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:25:51,063 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:25:51,063 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:25:56,497 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:25:56,561 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:26:06,307 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:26:15,274 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:27:37,112 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:27:37,114 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:27:37,114 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:27:52,908 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:27:52,910 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:27:52,911 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:27:53,125 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:27:53,127 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:28:01,705 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:28:10,869 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:28:34,346 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:28:34,346 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:28:34,347 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:28:37,545 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:28:37,548 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:28:39,392 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:28:48,431 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:29:51,464 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:29:51,465 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:29:51,466 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:30:10,047 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:30:10,048 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:30:10,048 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:30:27,796 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:30:27,797 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:30:27,797 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:30:34,239 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:30:34,243 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:33:18,524 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:33:31,393 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:33:31,604 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:33:31,606 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:35:23,908 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:35:31,117 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:35:31,119 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:38:34,922 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:38:35,156 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:38:35,165 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:39:19,071 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:39:19,332 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:39:19,337 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:40:44,549 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:40:44,786 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:40:44,788 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:40:45,054 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:40:45,055 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:40:53,651 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 18:40:53,652 :: DEBUG :: [INTF MQTT] Received message GESTION : <bound method Command.getName of <command.Command object at 0x104a4f518>> : <bound method Command.getPayload of <command.Command object at 0x104a4f518>>
+2018-12-11 18:40:53,652 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:50:32,029 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:50:39,297 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:50:39,300 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:50:39,567 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:50:39,568 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:50:40,303 :: ERROR :: [INTF MQTT] couldn't initialise mqtt connexion : 
+2018-12-11 18:52:30,997 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:52:57,669 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:53:36,926 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:53:37,377 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:53:37,379 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:53:37,428 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:53:37,428 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:53:38,383 :: ERROR :: [INTF MQTT] couldn't initialise mqtt connexion : 

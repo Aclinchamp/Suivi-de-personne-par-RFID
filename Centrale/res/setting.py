@@ -16,17 +16,16 @@ LOG_FILE_LEVEL = logging.DEBUG
 #-------------------------------------------
 BROKER_ADDRESS = "192.168.4.1"
 BROKER_PORT = 1883
-MQTT_NAME = "boitier1"
-MQTT_PASSWORD = "boitier"
-MQTT_SUBSCRIPTIONS = ("boitiers/boitier1")
-
+MQTT_NAME = "gestion"
+MQTT_PASSWORD = "gestion"
+MQTT_SUBSCRIPTIONS = ("gestion")
 
 #-------------------------------------------
 #     Informations relative au client      #
 #-------------------------------------------
-CLIENT_NAME = "BOITIER1"
-CLIENT_LOCATION="HALL"
-CLIENT_IP="192.168.4.16"
+CLIENT_NAME = "GESTION"
+CLIENT_LOCATION="PLACARD"
+CLIENT_IP="192.168.4.1"
 
 #-------------------------------------------
 #                  PATH                    #
