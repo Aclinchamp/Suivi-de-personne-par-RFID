@@ -5,41 +5,17 @@ import sys
 import parser
 from interfaceMqtt import InterfaceMqtt as intfMqtt
 from logger import Logger, LogLevel
-#from interfaceReader import InterfaceTagReader
+from interfaceReader import InterfaceTagReader
 import time
 from queue import Queue
 sys.path.append("../res")
 import setting
 
 def main():
-    '''
-    cmd = Command("GESTION", CmdTypes.PUSH, "position", "EB1234567890")
-    cmd.printCmd()
-
-    jsonCmd = cmd.getJsonCmd()
-    print("\n" + jsonCmd + "\n")
-
-    newCmd = Command("", "", "", "")
-    newCmd.setCmdFromJson(jsonCmd)
-    newCmd.printCmd()
-
-    ack = newCmd.generateAck()
-    print(ack)
-    '''
-    '''
-    print("projet : {}".format(setting.PATH_PROJET))
-    print("res : {}".format(setting.PATH_PROJET_RES_DIR))
-    print("src : {}".format(setting.PATH_PROJET_SRC_DIR))
-    print("file : {}".format(setting.PATH_CMDS_FILE))
-
-    '''
-
-    '''
-    parser.getCommandFromJson()
-    '''
 
     fifo_mqtt2core = Queue()
     fifo_core2mqtt = Queue()
+    fifo_reader2core = Queue()
 
 
     print("[Core] Create logger")
@@ -48,10 +24,10 @@ def main():
     Logger.log(LogLevel.DEBUG, "CORE", "Create interfaces threads")
     mqtt = intfMqtt(fifo_mqtt2core, fifo_core2mqtt)
     
-    #reader = InterfaceTagReader()
+    reader = InterfaceTagReader(fifo_reader2core)
     Logger.log(LogLevel.DEBUG, "CORE", "starting")
     mqtt.start()
-    #reader.start()
+    reader.start()
 
     while(mqtt.connected == False):
         time.sleep(0.25)
@@ -59,19 +35,19 @@ def main():
 
     Logger.log(LogLevel.DEBUG, "CORE", "before command")
    
-    cmd = Command("gestion", "push", "position", "jenesaispas")
-    fifo_core2mqtt.put(cmd)
-    
-    time.sleep(10)
+    while(True):
+        newcmd = fifo_reader2core.get()
+        fifo_core2mqtt.put(newcmd)
 
+    
     mqtt.stop()
-    #reader.stop()
+    reader.stop()
 
     Logger.log(LogLevel.DEBUG, "CORE", "Stop was sended")
     
     
     mqtt.join()
-    #reader.join()
+    reader.join()
     
     Logger.log(LogLevel.INFO, "CORE", "Core is down")
     

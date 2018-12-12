@@ -10,6 +10,9 @@ import logging
 NUMERO_VERSION="1.0"
 LOG_CONSOLE_LEVEL = logging.DEBUG
 LOG_FILE_LEVEL = logging.DEBUG
+READER_TTY = "tmr:///dev/ttyUSB0"
+READER_REGION = "EU3"
+READER_PLAN = "GEN2"
 
 #-------------------------------------------
 #        Gestion du protocole MQTT         #
@@ -27,6 +30,7 @@ MQTT_SUBSCRIPTIONS = ("boitiers/boitier1")
 CLIENT_NAME = "BOITIER1"
 CLIENT_LOCATION="HALL"
 CLIENT_IP="192.168.4.16"
+
 
 #-------------------------------------------
 #                  PATH                    #

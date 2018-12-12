@@ -6,10 +6,11 @@ import time
 import mercury
 import threading
 from logger import Logger, LogLevel
+from command import Command, CommandTypes
 
 class InterfaceTagReader(threading.Thread):
 
-    def __init__(self):
+    def __init__(self, fifo):
 
         try:
             threading.Thread.__init__(self)
@@ -19,6 +20,8 @@ class InterfaceTagReader(threading.Thread):
 
             self.TagReader.set_region(setting.READER_REGION)
             self.TagReader.set_read_plan([1], setting.READER_PLAN)
+
+            self.fifo = fifo
 
             Logger.log(LogLevel.DEBUG, "INTF RFID", "Interface initialised on tty : {}".format(setting.READER_TTY))
             
@@ -36,7 +39,10 @@ class InterfaceTagReader(threading.Thread):
             
 
     def onRfidTag(self,  tag):
+
+        cmd = Command("gestion", CommandTypes.PUSH, "position", "{}".format(tag.epc.decode("utf-8")))
         Logger.log(LogLevel.INFO, "INTF RFID", "NEW TAG : {} {} {}".format(tag.epc, tag.read_count, tag.rssi))
+        self.fifo.put(cmd)
 
     def stop(self):
         self.TagReader.stop_reading()
