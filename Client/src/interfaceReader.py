@@ -30,7 +30,7 @@ class InterfaceTagReader(threading.Thread):
 
     def run(self):
 
-            self.TagReader.start_reading(self.onRfidTag, 10, 1000)
+            self.TagReader.start_reading(self.onRfidTag, 250, 0)
             
             while(self.keepRunning == True):
                 pass
@@ -42,8 +42,7 @@ class InterfaceTagReader(threading.Thread):
 
         cmd = Command("gestion", CommandTypes.PUSH, "position", "{}".format(tag.epc.decode("utf-8")))
         Logger.log(LogLevel.INFO, "INTF RFID", "NEW TAG : {} {} {}".format(tag.epc, tag.read_count, tag.rssi))
-        self.fifo.put(cmd)
-
+       	#self.fifo.put(cmd)
     def stop(self):
         self.TagReader.stop_reading()
         self.keepRunning = False

@@ -404,3 +404,663 @@
 2018-12-11 18:53:37,428 :: DEBUG :: [CORE] Create bdd manager
 2018-12-11 18:53:37,428 :: DEBUG :: [CORE] Waiting for msg from mqtt
 2018-12-11 18:53:38,383 :: ERROR :: [INTF MQTT] couldn't initialise mqtt connexion : 
+2018-12-11 18:55:41,465 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:55:41,481 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:55:41,482 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:55:41,967 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:55:41,968 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:55:42,484 :: ERROR :: [INTF MQTT] couldn't initialise mqtt connexion : 
+2018-12-11 18:57:57,692 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 18:57:57,709 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 18:57:57,710 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 18:57:58,195 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 18:57:58,195 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 18:57:58,712 :: ERROR :: [INTF MQTT] couldn't initialise mqtt connexion : 
+2018-12-11 19:03:42,135 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:03:42,153 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:03:42,154 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:03:42,638 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:03:42,639 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:06:33,819 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:06:33,837 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:06:33,838 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:06:34,321 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:06:34,322 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:07:50,526 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:07:50,543 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:07:50,544 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:07:51,028 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:07:51,029 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:15:23,488 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:15:23,505 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:15:23,507 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:15:23,991 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:15:23,992 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:15:46,678 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 19:15:46,680 :: DEBUG :: [INTF MQTT] Received message =>GESTION : <bound method Command.getName of <command.Command object at 0x75b85390>> : <bound method Command.getPayload of <command.Command object at 0x75b85390>>
+2018-12-11 19:15:46,682 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:16:18,239 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 19:16:18,241 :: DEBUG :: [INTF MQTT] Received message =>GESTION : <bound method Command.getName of <command.Command object at 0x75b85490>> : <bound method Command.getPayload of <command.Command object at 0x75b85490>>
+2018-12-11 19:16:18,246 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:16:46,783 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 19:16:46,785 :: DEBUG :: [INTF MQTT] Received message =>GESTION : <bound method Command.getName of <command.Command object at 0x75b85530>> : <bound method Command.getPayload of <command.Command object at 0x75b85530>>
+2018-12-11 19:16:46,788 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:17:37,036 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 19:17:37,040 :: DEBUG :: [INTF MQTT] Received message =>GESTION : <bound method Command.getName of <command.Command object at 0x75b855d0>> : <bound method Command.getPayload of <command.Command object at 0x75b855d0>>
+2018-12-11 19:17:37,042 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:18:17,525 :: ERROR :: [COMMAND] Error while parsing json : Expecting value: line 1 column 1 (char 0)
+2018-12-11 19:18:17,527 :: DEBUG :: [INTF MQTT] Received message =>GESTION : <bound method Command.getName of <command.Command object at 0x75b85670>> : <bound method Command.getPayload of <command.Command object at 0x75b85670>>
+2018-12-11 19:18:17,530 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:21:40,657 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:21:40,674 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:21:40,675 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:21:41,160 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:21:41,160 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:21:51,382 :: DEBUG :: [INTF MQTT] Received message =>BOITIER1 : <bound method Command.getName of <command.Command object at 0x763bbcd0>> : <bound method Command.getPayload of <command.Command object at 0x763bbcd0>>
+2018-12-11 19:21:51,384 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:22:42,982 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:22:42,999 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:22:43,000 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:22:43,234 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:22:43,235 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:23:11,862 :: DEBUG :: [INTF MQTT] Received message =>BOITIER1 : <bound method Command.getName of <command.Command object at 0x76332cf0>> : <bound method Command.getPayload of <command.Command object at 0x76332cf0>>
+2018-12-11 19:23:11,865 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:23:48,367 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:23:48,384 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:23:48,385 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:23:48,619 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:23:48,620 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:23:58,977 :: DEBUG :: [INTF MQTT] Received message =>BOITIER1 : position : jenesaispas
+2018-12-11 19:23:58,979 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:24:35,569 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:24:35,586 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:24:35,588 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:24:35,821 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:24:35,822 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:24:46,269 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : push : position : jenesaispas
+2018-12-11 19:24:46,272 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:25:05,789 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : push : position : jenesaispas
+2018-12-11 19:25:05,793 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:33:31,770 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 19:33:31,787 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 19:33:31,788 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 19:33:32,022 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 19:33:32,023 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 19:33:49,122 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : push : position : jenesaispas
+2018-12-11 19:33:49,126 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:11:06,738 :: DEBUG :: [CORE] Create interface thread
+2018-12-11 20:11:06,760 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-11 20:11:06,761 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-11 20:11:06,991 :: DEBUG :: [CORE] Create bdd manager
+2018-12-11 20:11:06,992 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:28:45,365 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : b'E20040057305016225401378'
+2018-12-11 20:28:45,368 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:29:02,496 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : b'E20040057305016225401378'
+2018-12-11 20:29:02,498 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:29:52,110 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : b'E20040057305016825401387'
+2018-12-11 20:29:52,113 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:32:10,708 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:32:10,717 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:32:43,069 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:32:43,072 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:32:43,989 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:32:43,992 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:32:56,238 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:32:56,242 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:32:57,279 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:32:57,281 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:33:04,224 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:33:04,226 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:33:06,324 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:33:06,326 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:33:10,432 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:33:10,435 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:33:12,246 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:33:12,249 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:33:18,927 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:33:18,929 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 20:33:21,506 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-11 20:33:21,509 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-11 21:13:36,121 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:14:06,731 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:14:19,534 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:14:19,559 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on 'host:3306' (-3 Temporary failure in name resolution)
+2018-12-11 21:14:42,431 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:14:42,472 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 21:14:42,473 :: INFO :: [CORE] Core is down
+2018-12-11 21:15:43,322 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:15:43,341 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 21:15:43,344 :: ERROR :: [BDD MANAGER] Couldn't not process request "SELECT * FROM 'Users'" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Users'' at line 1
+2018-12-11 21:20:38,941 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:20:38,963 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 21:20:38,968 :: INFO :: [CORE] Core is down
+2018-12-11 21:37:12,879 :: DEBUG :: [CORE] Create BDD
+2018-12-11 21:37:12,904 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 21:37:12,917 :: INFO :: [CORE] Core is down
+2018-12-11 22:04:00,534 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:04:00,553 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:04:00,558 :: INFO :: [CORE] Core is down
+2018-12-11 22:10:42,323 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:10:42,343 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:10:42,545 :: INFO :: [CORE] Core is down
+2018-12-11 22:12:02,344 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:12:02,364 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:12:02,369 :: INFO :: [CORE] Core is down
+2018-12-11 22:19:22,346 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:19:22,365 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:19:57,648 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:19:57,668 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:19:57,670 :: ERROR :: [BDD MANAGER] Couldn't not process request "SELECT * FROM PATIENT WHERE idTag == E20040057305016225401378" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= E20040057305016225401378' at line 1
+2018-12-11 22:20:56,534 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:20:56,554 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:20:56,557 :: ERROR :: [BDD MANAGER] Couldn't not process request "SELECT * FROM PATIENT WHERE idTag == E20040057305016225401378" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= E20040057305016225401378' at line 1
+2018-12-11 22:21:15,678 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:21:15,698 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:21:15,701 :: ERROR :: [BDD MANAGER] Couldn't not process request "SELECT * FROM PATIENT WHERE idTag = E20040057305016225401378" : 1146 (42S02): Table 'BDD_HospitalTracking.PATIENT' doesn't exist
+2018-12-11 22:21:32,659 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:21:32,679 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:21:32,682 :: ERROR :: [BDD MANAGER] Couldn't not process request "SELECT * FROM Patient WHERE idTag = E20040057305016225401378" : 1054 (42S22): Unknown column 'E20040057305016225401378' in 'where clause'
+2018-12-11 22:22:09,462 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:22:09,481 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:22:09,485 :: INFO :: [CORE] Core is down
+2018-12-11 22:22:24,847 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:22:24,867 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:22:24,871 :: INFO :: [CORE] Core is down
+2018-12-11 22:26:01,975 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:26:01,995 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:26:01,999 :: INFO :: [CORE] Core is down
+2018-12-11 22:26:19,823 :: DEBUG :: [CORE] Create BDD
+2018-12-11 22:26:19,843 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-11 22:26:19,847 :: INFO :: [CORE] Core is down
+2018-12-13 18:05:30,141 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:05:30,165 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:05:30,168 :: ERROR :: [BDD MANAGER] Couldn't not process request "SELECT * FROM Borne WHERE Borne.name = boitier1" : 1054 (42S22): Unknown column 'boitier1' in 'where clause'
+2018-12-13 18:05:53,080 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:05:53,100 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:05:53,104 :: INFO :: [CORE] Core is down
+2018-12-13 18:06:16,509 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:06:16,530 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:06:16,536 :: INFO :: [CORE] Core is down
+2018-12-13 18:06:52,844 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:06:52,865 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:06:52,868 :: INFO :: [CORE] Core is down
+2018-12-13 18:07:15,544 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:07:15,564 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:07:15,568 :: INFO :: [CORE] Core is down
+2018-12-13 18:15:39,618 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:15:39,638 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:15:39,643 :: INFO :: [CORE] Core is down
+2018-12-13 18:16:19,950 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:16:19,971 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:16:34,944 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:16:34,964 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:16:34,969 :: INFO :: [CORE] Core is down
+2018-12-13 18:16:50,001 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:16:50,020 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:16:50,026 :: INFO :: [CORE] Core is down
+2018-12-13 18:17:28,762 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:17:28,782 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:17:28,787 :: INFO :: [CORE] Core is down
+2018-12-13 18:19:07,383 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:19:07,403 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:19:07,409 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position ('idPatient', 'idBorne', 'date') VALUES (1, 1, "2018-12-13 17:19:07.407663")" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''idPatient', 'idBorne', 'date') VALUES (1, 1, "2018-12-13 17:19:07.407663")' at line 1
+2018-12-13 18:19:07,411 :: INFO :: [CORE] Core is down
+2018-12-13 18:20:28,472 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:20:28,492 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:20:28,500 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position (idPatient, idBorne, date) VALUES (1, 1, "2018-12-13 17:20:28.496955")" : No result set to fetch from.
+2018-12-13 18:20:28,501 :: INFO :: [CORE] Core is down
+2018-12-13 18:21:00,382 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:21:00,402 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:21:00,409 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position (Patient.idPatient, Patient.idBorne, Patient.date) VALUES (1, 1, "2018-12-13 17:21:00.406980")" : 1054 (42S22): Unknown column 'Patient.idPatient' in 'field list'
+2018-12-13 18:21:00,410 :: INFO :: [CORE] Core is down
+2018-12-13 18:21:29,369 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:21:29,389 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:21:29,395 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position (idPatient, idBorne, date) VALUES (1, 1, 2018-12-13 17:21:29.393344)" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '17:21:29.393344)' at line 1
+2018-12-13 18:21:29,396 :: INFO :: [CORE] Core is down
+2018-12-13 18:22:40,044 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:22:40,064 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:22:40,071 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position (idPatient, idBorne, date) VALUES (1, 1, 2018-12-13 17:22:40.068737)" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '17:22:40.068737)' at line 1
+2018-12-13 18:22:40,072 :: INFO :: [CORE] Core is down
+2018-12-13 18:23:29,443 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:23:29,464 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:23:29,473 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position (idPatient, idBorne, date) VALUES (1, 1, 2018-12-13T17:23:29.469793)" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':23:29.469793)' at line 1
+2018-12-13 18:23:29,474 :: INFO :: [CORE] Core is down
+2018-12-13 18:23:44,490 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:23:44,510 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:23:44,518 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Position (idPatient, idBorne, date) VALUES (1, 1, '2018-12-13T17:23:44.514480')" : No result set to fetch from.
+2018-12-13 18:23:44,520 :: INFO :: [CORE] Core is down
+2018-12-13 18:25:49,010 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:25:49,031 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:25:49,039 :: INFO :: [CORE] Core is down
+2018-12-13 18:31:52,249 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:31:52,270 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:31:52,271 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO TAG (number) VALUES 'EBCBD'" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''EBCBD'' at line 1
+2018-12-13 18:31:52,272 :: INFO :: [CORE] Core is down
+2018-12-13 18:32:14,080 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:32:14,101 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:32:14,103 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Tag (number) VALUES "EBCBD"" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '"EBCBD"' at line 1
+2018-12-13 18:32:14,104 :: INFO :: [CORE] Core is down
+2018-12-13 18:33:03,167 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:33:03,188 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:33:03,190 :: ERROR :: [BDD MANAGER] Couldn't not process request "INSERT INTO Tag (number) VALUES ('jfkdlqsfm')" : No result set to fetch from.
+2018-12-13 18:33:03,191 :: INFO :: [CORE] Core is down
+2018-12-13 18:34:23,398 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:34:23,419 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:34:23,422 :: INFO :: [CORE] Core is down
+2018-12-13 18:35:21,556 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:35:21,578 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:35:21,580 :: ERROR :: [BDD MANAGER] Couldn't not process insertion "INSERT INTO 'Tag' (number) VALUES ('jfkdlqsfm')" : 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''Tag' (number) VALUES ('jfkdlqsfm')' at line 1
+2018-12-13 18:35:21,580 :: INFO :: [CORE] Core is down
+2018-12-13 18:35:53,052 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:35:53,072 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:35:53,074 :: INFO :: [CORE] Core is down
+2018-12-13 18:37:16,791 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:37:16,811 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:37:16,813 :: INFO :: [CORE] Core is down
+2018-12-13 18:41:48,981 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:41:49,001 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:41:49,003 :: ERROR :: [BDD MANAGER] Couldn't not process insertion "INSERT INTO `Tag`(`number`) VALUES ("EEE")" : 'MySQLCursor' object has no attribute 'commit'
+2018-12-13 18:41:49,004 :: INFO :: [CORE] Core is down
+2018-12-13 18:43:52,468 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:43:52,489 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:43:52,514 :: INFO :: [CORE] Core is down
+2018-12-13 18:45:00,172 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:45:00,192 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:45:15,939 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:45:15,960 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:45:15,966 :: INFO :: [CORE] Core is down
+2018-12-13 18:47:43,533 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:47:43,555 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:47:43,561 :: INFO :: [CORE] Core is down
+2018-12-13 18:48:33,231 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:48:33,251 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:48:33,258 :: ERROR :: [BDD MANAGER] Couldn't not process insertion "INSERT INTO Position (idPatient, idBorne, date) VALUES (1, 1)" : 1136 (21S01): Column count doesn't match value count at row 1
+2018-12-13 18:48:33,259 :: INFO :: [CORE] Core is down
+2018-12-13 18:48:52,674 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:48:52,694 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:48:53,384 :: INFO :: [CORE] Core is down
+2018-12-13 18:49:34,759 :: DEBUG :: [CORE] Create BDD
+2018-12-13 18:49:34,780 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 18:49:34,798 :: INFO :: [CORE] Core is down
+2018-12-13 19:07:51,677 :: DEBUG :: [CORE] Create interface thread
+2018-12-13 19:07:51,696 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-13 19:07:51,698 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-13 19:07:51,930 :: DEBUG :: [CORE] Create bdd manager
+2018-12-13 19:07:51,938 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 19:07:51,939 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:08:13,973 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:08:51,197 :: DEBUG :: [CORE] Create interface thread
+2018-12-13 19:08:51,215 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-13 19:08:51,216 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-13 19:08:51,450 :: DEBUG :: [CORE] Create bdd manager
+2018-12-13 19:08:51,458 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 19:08:51,459 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:08:58,486 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:09:19,933 :: DEBUG :: [CORE] Create interface thread
+2018-12-13 19:09:19,951 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-13 19:09:19,952 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-13 19:09:20,184 :: DEBUG :: [CORE] Create bdd manager
+2018-12-13 19:09:20,192 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 19:09:20,193 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:09:38,875 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:10:01,983 :: DEBUG :: [CORE] Create interface thread
+2018-12-13 19:10:02,000 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-13 19:10:02,001 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-13 19:10:02,235 :: DEBUG :: [CORE] Create bdd manager
+2018-12-13 19:10:02,242 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 19:10:02,243 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:10:12,503 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:10:30,138 :: DEBUG :: [CORE] Create interface thread
+2018-12-13 19:10:30,155 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2018-12-13 19:10:30,156 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2018-12-13 19:10:30,390 :: DEBUG :: [CORE] Create bdd manager
+2018-12-13 19:10:30,406 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2018-12-13 19:10:30,408 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:10:34,372 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:10:34,398 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:10:34,399 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:11:12,988 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:11:13,509 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:11:13,511 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:14:01,952 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:14:01,987 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:14:01,989 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:15:51,026 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:15:51,053 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:15:51,055 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:15:55,136 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:15:56,053 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:15:56,055 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:15:56,181 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:15:57,216 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:15:57,218 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:15:59,270 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:15:59,298 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:15:59,300 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:20,464 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:20,490 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:20,492 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:33,520 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:33,546 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:33,548 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:34,588 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:34,608 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:34,610 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:35,664 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:35,721 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:35,723 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:36,722 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:36,748 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:36,749 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:37,539 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:37,570 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:37,572 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:38,602 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:38,624 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:38,625 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:39,685 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:39,708 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:39,709 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:47,612 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:47,639 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:47,640 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:49,665 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:49,688 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:49,690 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:50,727 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:50,749 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:50,751 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:52,796 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:52,818 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:52,820 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:53,853 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:53,878 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:53,879 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:54,916 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:54,938 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:54,939 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:56,744 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:56,825 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:56,828 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:58,897 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:58,920 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:58,921 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:16:59,899 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:16:59,928 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:16:59,930 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:17:00,970 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:17:00,996 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:17:00,998 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:17:59,503 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:17:59,891 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:17:59,893 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:18:06,164 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:18:06,189 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:18:06,191 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:18:07,531 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:18:07,554 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:18:07,555 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:19:03,256 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:19:03,278 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:19:03,280 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:19:04,322 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:19:04,361 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:19:04,364 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:19:11,269 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:19:11,305 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:19:11,307 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:00,871 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:00,896 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:00,898 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:13,962 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:14,670 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:14,671 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:15,001 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:15,114 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:15,116 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:16,050 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:16,075 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:16,077 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:17,108 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:17,132 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:17,134 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:18,154 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:18,180 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:18,181 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:19,180 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:19,202 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:19,204 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:19,970 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:19,993 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:19,995 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:21,012 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:21,037 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:21,038 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:23,072 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:23,095 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:23,096 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:24,119 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:24,147 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:24,149 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:33,332 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:33,355 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:33,357 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:34,118 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:34,141 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:34,142 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:35,248 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:36,263 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:37,098 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:37,099 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:37,328 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:38,409 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:39,229 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:39,738 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:39,739 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:40,290 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:20:40,436 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:40,437 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:40,486 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:40,487 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:41,308 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:41,310 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:20:41,333 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:20:41,334 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:23:23,079 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:23:23,103 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:23:23,105 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:23:24,323 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:23:24,348 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:23:24,349 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:23:31,348 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:23:31,374 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:23:31,375 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:20,271 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:20,294 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:20,296 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:22,109 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:22,130 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:22,131 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:23,150 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:23,174 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:23,175 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:24,222 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:24,580 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:24,581 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:25,267 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:26,125 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:26,126 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:26,317 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:26,341 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:26,342 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:27,496 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:27,518 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:27,520 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:28,412 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:28,434 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:28,435 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:29,375 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:29,398 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:29,399 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:30,257 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:30,282 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:30,284 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:31,287 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:31,311 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:31,313 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:33,350 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:34,334 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:34,335 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:34,409 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:35,439 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:35,842 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:35,844 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:35,882 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:35,883 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:36,502 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:36,518 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:36,519 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:37,287 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:37,318 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:37,321 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:38,322 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:38,344 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:38,345 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:40,376 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:40,397 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:40,399 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:41,433 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:41,455 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:41,457 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:42,478 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:42,502 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:42,504 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:43,515 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:43,536 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:43,538 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:44,555 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:44,578 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:44,580 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:45,337 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:45,363 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:45,364 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:46,392 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:46,415 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:46,416 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:47,437 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:47,461 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:47,463 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:48,461 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:48,486 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:48,487 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:49,511 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:49,537 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:49,538 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:50,561 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:50,584 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:50,586 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:52,637 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:52,689 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:52,691 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:53,678 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:53,703 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:53,704 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:54,466 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:54,498 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:54,500 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:56,539 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:56,561 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:56,563 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:58,647 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:58,671 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:58,673 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:26:59,634 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:26:59,660 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:26:59,661 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:00,679 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:00,704 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:00,706 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:01,714 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:01,739 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:01,740 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:02,764 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:02,786 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:02,788 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:03,799 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:03,823 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:03,824 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:04,600 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:04,625 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:04,627 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:05,641 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:05,663 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:05,665 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:06,685 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:06,716 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:06,718 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:08,728 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:08,749 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:08,751 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:09,768 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:09,792 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:09,794 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:10,823 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:10,848 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:10,849 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:12,875 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:12,900 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:12,902 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:13,929 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:13,953 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:13,954 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:14,713 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:14,734 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:14,736 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:15,752 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:15,776 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:15,777 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:16,787 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:16,861 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:16,864 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:18,351 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:18,377 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:18,378 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:18,876 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:18,893 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:18,894 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:19,922 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:19,963 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:19,967 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:20,972 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:20,993 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:20,994 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:22,027 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:22,054 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:22,056 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:22,810 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:22,838 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:22,840 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:23,922 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:23,956 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:23,958 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:25,910 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:25,935 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:25,937 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:30,252 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:30,752 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:30,752 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:27:45,108 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:27:45,134 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:27:45,135 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:28:02,498 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:28:02,590 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:28:02,591 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:28:38,779 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:28:38,805 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:28:38,806 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:28:39,851 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2018-12-13 19:28:39,876 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:28:39,877 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2018-12-13 19:35:25,778 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2018-12-13 19:35:25,805 :: INFO :: [CORE] Cmd PUSH position processed
+2018-12-13 19:35:25,807 :: DEBUG :: [CORE] Waiting for msg from mqtt

@@ -29,13 +29,20 @@ def main():
         time.sleep(0.25)
 	
     Logger.log(LogLevel.DEBUG, "CORE", "Create bdd manager")
-    #manager = BddManager("localhost", "BDD_HospitalTracking", "boitier", "hospital")
+    bdd = BddManager(setting.SQL_HOST, setting.SQL_DATABASE, setting.SQL_USER, setting.SQL_PASSWORD)
 
     while(True):
 
         Logger.log(LogLevel.DEBUG, "CORE", "Waiting for msg from mqtt")
         cmd = fifo_mqtt2core.get()
         cmd.printCmd()
+        
+        boitier = cmd.getSource().replace("boitiers/", "")
+        print(boitier)
+        patient = bdd.getPatientFromTag(cmd.getPayload())
+        
+        bdd.pushPosition(patient[0][0],boitier)
+        Logger.log(LogLevel.INFO, "CORE", "Cmd {} {} processed".format(cmd.getType(), cmd.getName()))
 
     Logger.log(LogLevel.DEBUG, "CORE", "Stopping threads")
     mqtt.stop()
