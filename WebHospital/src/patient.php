@@ -42,43 +42,62 @@ if(!isset($_SESSION['isConnected'])){
                         <table class="table table-light table-hover">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>                           
+                                    <th scope="col">Id</th>
+                                    <th scope="col">First Name</th>
+                                    <th scope="col">Last Name</th>
+                                    <th scope="col">Tag</th>
+                                    <th scope="col">Last Position</th>                         
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                </tr>
+                            <?php 
+
+                                // Connexion a la bdd
+                                $mysqli = new mysqli("localhost", "boitier", "hospital", "BDD_HospitalTracking");
+
+                                /* Vérification de la connexion */
+                                if ($mysqli->connect_errno) {
+                                    printf("Échec de la connexion : %s\n", $mysqli->connect_error);
+                                    exit();
+                                }
+
+                                $requestPatient = "SELECT * FROM Patient";
+                                $resultPatient = $mysqli->query($requestPatient);
+
+
+                                while($data = $resultPatient->fetch_array()){
+
+                                    if($requestTag = $mysqli->prepare("SELECT number FROM Tag WHERE id=?")){
+                                        $requestTag->bind_param("i", $data["idTag"]);
+                                        $requestTag->execute();
+                                        $requestTag->bind_result($tagNumber);
+                                        $requestTag->fetch();
+                                    }else{
+                                        $tagNumer="xxxxxxxx";
+                                    }
+
+                                    if($requestLastPos = $mysqli->prepare("SELECT name FROM Borne WHERE id = (SELECT idBorne FROM Position WHERE idPatient=? ORDER BY date DESC LIMIT 1)")){
+                                        $requestLastPos->bind_param("i", $data["id"]);
+                                        $requestLastPos->execute();
+                                        $requestLastPos->bind_result($lastPos);
+                                        $requestLastPos->fetch();
+                                    }else{
+                                        $lastPos = "XXXX";
+                                    }
+                            ?>
+                                    <tr>
+                                        <th scope="row"><?php echo($data["id"]); ?></th>
+                                        <td><?php echo($data["firstName"]); ?></td>
+                                        <td><?php echo($data["lastName"]); ?></td>
+                                        <td><?php echo($tagNumber); ?></td>
+                                        <td><?php echo($lastPos); ?></td>
+                                    </tr>
+
+                                <?php
+                                    }
+                                ?>
+                                
+                            
                             </tbody>
                         </table>
                     </div>
