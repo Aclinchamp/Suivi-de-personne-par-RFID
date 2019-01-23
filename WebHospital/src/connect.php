@@ -1,5 +1,5 @@
 <?php
-session_start();
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="FR">
@@ -17,7 +17,7 @@ session_start();
         <div class="container-fluid" id="page-auth">
             
             <div class="row">
-                <div class="col-sm">
+                <div class="col-sm-8">
                     <h2>Connection</h2>
 
                     <?php
@@ -26,48 +26,37 @@ session_start();
                         $password = md5($_POST['password']);
                         $flag_auth;
 
-                        try
-                        {
-                            // Connexion a la bdd
+                        try{
                             $mysqli = new mysqli("localhost", "boitier", "hospital", "BDD_HospitalTracking");
+                        }catch (Exception $e) {
+                            echo 'Exception reçue : ',  $e->getMessage(), "\n";
+                        }
 
-                            /* Vérification de la connexion */
-                            if ($mysqli->connect_errno) {
-                                printf("Échec de la connexion : %s\n", $mysqli->connect_error);
+                        //echo("SELECT * FROM Users WHERE Nom ='$login'");
+                        $result = $mysqli->query("SELECT * FROM Users WHERE Nom =\"".$login."\"");
+
+                        while($data = $result->fetch_array()){
+                            
+                            if($data['Password'] == $password){
+                                
+
+                                $_SESSION['lastName'] = $data['Nom'];
+                                $_SESSION['firstName'] = $data['Prenom'];
+                                $_SESSION['age'] = $data['Age'];
+                                $_SESSION['job'] = $data['Poste'];
+                                $_SESSION['group'] = $data['Groupe'];
+                                $_SESSION['isConnected'] = 1;
+                                
+                                //header('Location: home.php');
+                                header('Location: /src/home.php');
                                 exit();
                             }
-
-                            $request = "SELECT * FROM Users WHERE Nom ='$login'";
-                            //echo("SELECT * FROM Users WHERE Nom ='$login'");
-                            $result = $mysqli->query($request);
-
-                            while($data = $result->fetch_array()){
-                                
-                                if($data['Password'] == $password){
-                                    
-
-                                    $_SESSION['lastName'] = $data['Nom'];
-                                    $_SESSION['firstName'] = $data['Prenom'];
-                                    $_SESSION['age'] = $data['Age'];
-                                    $_SESSION['job'] = $data['Poste'];
-                                    $_SESSION['group'] = $data['Groupe'];
-                                    $_SESSION['isConnected'] = 1;
-                                    
-                                    $result->close();
-                                    $mysqli->close();
-                                    //header('Location: home.php');
-                                    header('Location :  home.php', true, 301);
-                                    exit();
-                                }
-                            }
-                            
-                            $result->close();
-                            $mysqli->close();
-
-                        }catch(Exception $e){
-                                die('Erreur : '.$e->getMessage());
                         }
+                        
+                        //$result->close();
+                        //$mysqli->close();
                     ?>
+                    
                     <p>Login information were not correct...</p>
                     <a class="btn btn-danger" href="../index.php">go back</a>
                 </div>

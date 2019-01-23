@@ -45,8 +45,9 @@ if(!isset($_SESSION['isConnected'])){
                                     <th scope="col">Id</th>
                                     <th scope="col">First Name</th>
                                     <th scope="col">Last Name</th>
-                                    <th scope="col">Tag</th>
-                                    <th scope="col">Last Position</th>                         
+                                    <!-- <th scope="col">Tag</th> -->
+                                    <th scope="col">Last Position</th> 
+                                    <th scope="col">Action</th>                         
                                 </tr>
                             </thead>
                             <tbody>
@@ -67,33 +68,55 @@ if(!isset($_SESSION['isConnected'])){
 
                                 while($data = $resultPatient->fetch_array()){
 
-                                    if($requestTag = $mysqli->prepare("SELECT number FROM Tag WHERE id=?")){
+									$requestLastPos = $mysqli->prepare("SELECT location FROM Borne WHERE id =(SELECT idBorne FROM Position WHERE idPatient=? ORDER BY date DESC LIMIT 1)");
+									/*
+									if($requestLastPos){
+										$requestLastPos->bind_param("i", $data["id"]);
+										$requestLastPos->execute();
+										$requestLastPos->bind_result($lastPos);
+										$requestLastPos->fetch();
+									}else{
+									   $lastPos = "xxxx";
+									}
+									
+									$requestTag = $mysqli->prepare("SELECT number FROM Tag WHERE id=?");
+                                    if($requestTag){
                                         $requestTag->bind_param("i", $data["idTag"]);
                                         $requestTag->execute();
                                         $requestTag->bind_result($tagNumber);
                                         $requestTag->fetch();
                                     }else{
-                                        $tagNumer="xxxxxxxx";
+                                        $tagNumber="xxxxxxxx";
                                     }
+									*/
 
-                                    if($requestLastPos = $mysqli->prepare("SELECT name FROM Borne WHERE id = (SELECT idBorne FROM Position WHERE idPatient=? ORDER BY date DESC LIMIT 1)")){
-                                        $requestLastPos->bind_param("i", $data["id"]);
-                                        $requestLastPos->execute();
-                                        $requestLastPos->bind_result($lastPos);
-                                        $requestLastPos->fetch();
-                                    }else{
-                                        $lastPos = "XXXX";
-                                    }
+								$requestLastPos =  $mysqli->query("SELECT * FROM Borne WHERE id=(SELECT idBorne FROM Position WHERE idPatient=".$data['id']." ORDER BY date DESC LIMIT 1);");
+                                //echo("SELECT * FROM Borne WHERE id=(SELECT idBorne FROM Position WHERE idPatient=".$data['id']." ORDER BY date DESC LIMIT 1);");
+                                
+                                $lastPos = $requestLastPos->fetch_array();
+                                
+                                $requestTag =  $mysqli->query("SELECT number FROM Tag WHERE id=".$data["idTag"]);
+                                //echo("SELECT * FROM Borne WHERE id=(SELECT idBorne FROM Position WHERE idPatient=".$data['id']." ORDER BY date DESC LIMIT 1);");
+                                
+                                $tagNumber = $requestTag->fetch_array();
                             ?>
                                     <tr>
-                                        <th scope="row"><?php echo($data["id"]); ?></th>
-                                        <td><?php echo($data["firstName"]); ?></td>
-                                        <td><?php echo($data["lastName"]); ?></td>
-                                        <td><?php echo($tagNumber); ?></td>
-                                        <td><?php echo($lastPos); ?></td>
+                                        <form action="fichePatient.php" method="post"> 
+                                            <th scope="row"><?php echo($data["id"]); ?></th>
+                                            <td><?php echo($data["firstName"]); ?></td>
+                                            <td><?php echo($data["lastName"]); ?></td>
+                                            <!--<td><?php //echo($tagNumber['number']); ?></td>-->
+                                            <td><?php echo($lastPos['location']); ?></td>
+                                        
+                                            <input type="hidden" name="patientId" value="<?php echo($data["id"]);  ?>">
+                                            <td><button type="submit" class="btn btn-primary">Consult</a></td>
+                                        </form>
+                                        
                                     </tr>
 
                                 <?php
+									//$requestLastPos->close();
+									//$requestTag->close();
                                     }
                                 ?>
                                 

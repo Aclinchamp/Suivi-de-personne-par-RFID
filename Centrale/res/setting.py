@@ -5,7 +5,7 @@ import os
 import logging
 
 #-------------------------------------------
-#           information  boitier           #
+#           informations boitier           #
 #-------------------------------------------
 NUMERO_VERSION="1.0"
 LOG_CONSOLE_LEVEL = logging.DEBUG
@@ -20,9 +20,8 @@ MQTT_NAME = "gestion"
 MQTT_PASSWORD = "gestion"
 MQTT_SUBSCRIPTIONS = ("gestion")
 
-
 #-------------------------------------------
-#      Information relative au client      #
+#     Informations relative au client      #
 #-------------------------------------------
 CLIENT_NAME = "GESTION"
 CLIENT_LOCATION="PLACARD"
@@ -42,9 +41,9 @@ PATH_CMDS_FILE = os.path.join(PATH_PROJET_RES_DIR, "commands.json")
 PATH_LOG_FILE = os.path.join(PATH_PROJET_LOG_DIR, "log.txt")
 
 #-------------------------------------------
-#               SQL information             #
+#                  SQL                     #
 #-------------------------------------------
-SQL_ADRESS = "192.168.4.1"
+SQL_HOST = "localhost"
 SQL_USER = "boitier"
 SQL_PASSWORD = "hospital"
 SQL_DATABASE = "BDD_HospitalTracking"

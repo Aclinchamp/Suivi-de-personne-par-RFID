@@ -37,6 +37,7 @@ if(!isset($_SESSION['isConnected'])){
                         <li class="list-group-item">Age : <?php echo$_SESSION['age'];?></li>
                         <li class="list-group-item">Poste : <?php echo$_SESSION['job'];?></li>
                         <li class="list-group-item">Group : <?php echo$_SESSION['group'];?></li>
+                    </ul>
                         </br>
                     <a class="btn btn-primary" href="disconnect.php">Disconnect</a>
                 </div>

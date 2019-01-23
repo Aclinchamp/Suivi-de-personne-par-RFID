@@ -19,6 +19,7 @@ class InterfaceMqtt(threading.Thread):
         self.fifo_fromCore = fifo_fromCore
 
         self.cmd = object()
+        self.isConnected = False
 
     def run(self):
 
@@ -47,6 +48,7 @@ class InterfaceMqtt(threading.Thread):
         except Exception as e_mqtt_init:
             Logger.log(LogLevel.ERROR, "INTF MQTT", "couldn't initialise mqtt connexion : {}".format(e_mqtt_init)) 
             
+
         while(self.keepRunning):
         # all networkd events are processing into callback
             
@@ -56,7 +58,6 @@ class InterfaceMqtt(threading.Thread):
                 self.mqttClient.publish(self.cmd.getDestination(), self.cmd.getJsonCmd())
 
             time.sleep(0.25)
-        
         Logger.log(LogLevel.DEBUG, "INTF MQTT", "Thread was stopped\n")
         self.mqttClient.disconnect()
         self.mqttClient.loop_stop()
@@ -79,6 +80,7 @@ class InterfaceMqtt(threading.Thread):
                 raise IOError("Couldn't etablish connection for unknown reasons")
         else:
             self.connected = True
+            self.isconnected = True
             Logger.log(LogLevel.DEBUG, "INTF MQTT", "Connection etablished on {}@{}:{}".format(setting.MQTT_NAME, setting.BROKER_ADDRESS, setting.BROKER_PORT))
         
 
@@ -98,5 +100,6 @@ class InterfaceMqtt(threading.Thread):
     def stop(self):
         self.keepRunning = False
 
-
+    def getState(self):
+        return self.isConnected
 

@@ -88,9 +88,9 @@ class InterfaceMqtt(threading.Thread):
         #Logger.log(LogLevel.DEBUG, "INTF MQTT", "Received : {} {}".format(msg.payload, client))
 
         recvMsg = Command("", "", "", "")
-        recvMsg.setCmdFromJson(msg.payload.decode("utf-8"))
+        recvMsg.setCmdFromJson(msg.payload)
 
-        Logger.log(LogLevel.DEBUG, "INTF MQTT", "Received message => {} : {} : {} : {}".format(recvMsg.getSource() , recvMsg.getType(), recvMsg.getName(), recvMsg.getPayload()))
+        Logger.log(LogLevel.DEBUG, "INTF MQTT", "Received message {} : {} : {}".format(recvMsg.getSource() , recvMsg.getName, recvMsg.getPayload))
         self.fifo_2core.put(recvMsg)
         #recvMsg.printCmd()
 

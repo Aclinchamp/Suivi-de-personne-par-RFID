@@ -31,12 +31,13 @@ def main():
 
     while(mqtt.connected == False):
         time.sleep(0.25)
-        
-
-    Logger.log(LogLevel.DEBUG, "CORE", "before command")
+    
    
     while(True):
+		
+        Logger.log(LogLevel.DEBUG, "CORE", "Waiting for tag")
         newcmd = fifo_reader2core.get()
+        Logger.log(LogLevel.DEBUG, "CORE", "Sended to Mqtt")
         fifo_core2mqtt.put(newcmd)
 
     
