@@ -1497,3 +1497,75 @@
 2019-01-16 16:23:23,200 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
 2019-01-16 16:23:23,932 :: INFO :: [CORE] Cmd PUSH position processed
 2019-01-16 16:23:23,933 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-28 23:45:55,173 :: DEBUG :: [CORE] Create BDD
+2019-01-28 23:45:55,208 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+2019-01-28 23:47:24,045 :: DEBUG :: [CORE] Create BDD
+2019-01-28 23:47:24,062 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+2019-01-28 23:48:28,735 :: DEBUG :: [CORE] Create BDD
+2019-01-28 23:48:28,754 :: ERROR :: [BDD MANAGER] Couldn't connect to the bdd "BDD_HospitalTracking" : Could not connect to bdd : 2003: Can't connect to MySQL server on 'localhost:3306' (61 Connection refused)
+2019-01-28 23:50:23,956 :: DEBUG :: [CORE] Create BDD
+2019-01-28 23:50:23,976 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-28 23:50:23,996 :: INFO :: [CORE] Core is down
+2019-01-29 00:03:51,102 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:03:51,138 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:03:51,149 :: INFO :: [CORE] Core is down
+2019-01-29 00:04:16,882 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:04:16,898 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:05:11,476 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:05:11,490 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:05:11,492 :: ERROR :: [BDD MANAGER] No matching borne for boitier3
+2019-01-29 00:08:22,736 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:08:22,753 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:08:22,756 :: INFO :: [CORE] Core is down
+2019-01-29 00:15:24,114 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:15:24,132 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:15:24,135 :: INFO :: [CORE] Core is down
+2019-01-29 00:27:03,064 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:27:03,081 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:27:03,084 :: INFO :: [CORE] Core is down
+2019-01-29 00:31:18,893 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:31:18,911 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:31:32,944 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:31:32,955 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:31:32,955 :: INFO :: [CORE] Core is down
+2019-01-29 00:31:44,681 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:31:44,697 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:31:44,697 :: INFO :: [CORE] Core is down
+2019-01-29 00:32:21,309 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:32:21,320 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:32:21,320 :: INFO :: [CORE] Core is down
+2019-01-29 00:33:28,327 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:33:28,347 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:33:28,348 :: INFO :: [CORE] Core is down
+2019-01-29 00:34:25,480 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:34:25,498 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:34:38,821 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:34:38,838 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:34:38,840 :: INFO :: [CORE] Core is down
+2019-01-29 00:35:13,611 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:35:13,626 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:35:13,628 :: INFO :: [CORE] Core is down
+2019-01-29 00:35:34,115 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:35:34,126 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:35:34,128 :: INFO :: [CORE] Core is down
+2019-01-29 00:35:45,410 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:35:45,421 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:35:45,423 :: INFO :: [CORE] Core is down
+2019-01-29 00:36:25,619 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:36:25,638 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:36:25,640 :: INFO :: [CORE] Core is down
+2019-01-29 00:36:35,425 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:36:35,436 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:36:35,439 :: INFO :: [CORE] Core is down
+2019-01-29 00:36:46,112 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:36:46,124 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:36:46,125 :: INFO :: [CORE] Core is down
+2019-01-29 00:41:46,285 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:41:46,304 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:41:46,306 :: INFO :: [CORE] Core is down
+2019-01-29 00:42:09,848 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:42:09,864 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:42:09,866 :: INFO :: [CORE] Core is down
+2019-01-29 00:42:19,600 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:42:19,611 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:42:19,612 :: INFO :: [CORE] Core is down

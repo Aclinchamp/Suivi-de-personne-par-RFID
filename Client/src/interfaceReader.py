@@ -7,6 +7,8 @@ import mercury
 import threading
 from logger import Logger, LogLevel
 from command import Command, CommandTypes
+from utils import CoreState, CoreSateLevel
+
 
 class InterfaceTagReader(threading.Thread):
 
@@ -16,7 +18,13 @@ class InterfaceTagReader(threading.Thread):
             threading.Thread.__init__(self)
             
             self.keepRunning = True
-            self.TagReader = mercury.Reader(setting.READER_TTY)
+
+            try:
+                self.TagReader = mercury.Reader(setting.READER_TTY)
+            except Exception as e_uncorrect_tty:
+                Logger.log(LogLevel.DEBUG, "INTF RFID", "TTY {} is not reachable".format(setting.READER_TTY))
+                CoreState.setState(CoreSateLevel.ERR_2)
+
 
             self.TagReader.set_region(setting.READER_REGION)
             self.TagReader.set_read_plan([1], setting.READER_PLAN)
@@ -43,6 +51,7 @@ class InterfaceTagReader(threading.Thread):
         cmd = Command("gestion", CommandTypes.PUSH, "position", "{}".format(tag.epc.decode("utf-8")))
         Logger.log(LogLevel.INFO, "INTF RFID", "NEW TAG : {} {} {}".format(tag.epc, tag.read_count, tag.rssi))
        	self.fifo.put(cmd)
+
     def stop(self):
         self.TagReader.stop_reading()
         self.keepRunning = False

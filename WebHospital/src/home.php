@@ -12,7 +12,7 @@ if(!isset($_SESSION['isConnected'])){
 <!DOCTYPE html>
 <html lang="FR">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Hospital Tracking</title>
         <link href="../assert/css/bootstrap.css" rel="stylesheet">
         <link href="../assert/css/home.css" rel="stylesheet">
@@ -26,9 +26,9 @@ if(!isset($_SESSION['isConnected'])){
         </header>
         <div class="container-fluid">
             
-            <div class="row">
+            <div class="row justify-content-center">
 
-                <div class="col-6">
+                <div class="col col-md-5 col-sm-10" align="center">
                     <h2>Welcome <?php echo($_SESSION['prenom']); ?></h2>
                     </br>
                     <ul class="list-group">
@@ -42,7 +42,7 @@ if(!isset($_SESSION['isConnected'])){
                     <a class="btn btn-primary" href="disconnect.php">Disconnect</a>
                 </div>
 
-                <div class="col-6">
+                <div class="col col-md-5 col-sm-10" align="center">
                 <h2>Overview</h2>
                 <figcaption class="figure-caption">Number of patient per room</figcaption>
                 <canvas id="chart-bornes">

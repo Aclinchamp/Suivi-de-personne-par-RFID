@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="FR">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Hospital Tracking</title>
         <link href="assert/css/bootstrap.css" rel="stylesheet">
 

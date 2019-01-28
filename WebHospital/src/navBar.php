@@ -15,8 +15,8 @@
     <div class="navbar-nav mr-auto">
       <a class="nav-item nav-link" href="home.php">Overview</a>
       <a class="nav-item nav-link" href="patient.php">Patients</a>
-      <a class="nav-item nav-link" href="#">Tracking</a>
-      <a class="nav-item nav-link" href="#">Settings</a>
+      <a class="nav-item nav-link" href="tracking.php">Tracking</a>
+      <a class="nav-item nav-link" href="disconnect.php">Log out</a>
     </div>
   </div>
   <?php 

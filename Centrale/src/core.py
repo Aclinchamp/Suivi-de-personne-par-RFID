@@ -37,11 +37,21 @@ def main():
         cmd = fifo_mqtt2core.get()
         cmd.printCmd()
         
+        # recuperation de la borne emetrice du message
         boitier = cmd.getSource().replace("boitiers/", "")
-        print(boitier)
-        patient = bdd.getPatientFromTag(cmd.getPayload())
+
+        # recuperation du patient associe au tag
+        patientId = bdd.getPatientFromTag(cmd.getPayload())
         
-        bdd.pushPosition(patient[0][0],boitier)
+        # on regarde si le patient entre ou quitte la pièce
+        response = bdd.getLastPosition(patientId[0][0])
+
+        if(lieu == response[0][0]):
+            bdd.pushPosition(patient[0][0],"Hall")
+        else:
+            bdd.pushPosition(patient[0][0],boitier)
+
+        
         Logger.log(LogLevel.INFO, "CORE", "Cmd {} {} processed".format(cmd.getType(), cmd.getName()))
 
     Logger.log(LogLevel.DEBUG, "CORE", "Stopping threads")
@@ -49,6 +59,7 @@ def main():
     mqtt.join()
    
     Logger.log(LogLevel.INFO, "CORE", "Core is down")
+    
     
 if __name__ == "__main__":
     main()

@@ -12,7 +12,7 @@ if(!isset($_SESSION['isConnected'])){
 <!DOCTYPE html>
 <html lang="FR">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Hospital Tracking</title>
         <link href="../assert/css/bootstrap.css" rel="stylesheet">
         <link href="../assert/css/home.css" rel="stylesheet">
@@ -20,6 +20,7 @@ if(!isset($_SESSION['isConnected'])){
         <script type="text/javascript" src="../script/chart.js"></script>
         <script src="../assert/js/jquery.js"></script>
         <script src="../assert/js/bootstrap.js"></script>
+        <script src="../assert/js/svg.js"></script>
         
     </head>
     <body>
@@ -69,26 +70,6 @@ if(!isset($_SESSION['isConnected'])){
                                 while($data = $resultPatient->fetch_array()){
 
 									$requestLastPos = $mysqli->prepare("SELECT location FROM Borne WHERE id =(SELECT idBorne FROM Position WHERE idPatient=? ORDER BY date DESC LIMIT 1)");
-									/*
-									if($requestLastPos){
-										$requestLastPos->bind_param("i", $data["id"]);
-										$requestLastPos->execute();
-										$requestLastPos->bind_result($lastPos);
-										$requestLastPos->fetch();
-									}else{
-									   $lastPos = "xxxx";
-									}
-									
-									$requestTag = $mysqli->prepare("SELECT number FROM Tag WHERE id=?");
-                                    if($requestTag){
-                                        $requestTag->bind_param("i", $data["idTag"]);
-                                        $requestTag->execute();
-                                        $requestTag->bind_result($tagNumber);
-                                        $requestTag->fetch();
-                                    }else{
-                                        $tagNumber="xxxxxxxx";
-                                    }
-									*/
 
 								$requestLastPos =  $mysqli->query("SELECT * FROM Borne WHERE id=(SELECT idBorne FROM Position WHERE idPatient=".$data['id']." ORDER BY date DESC LIMIT 1);");
                                 //echo("SELECT * FROM Borne WHERE id=(SELECT idBorne FROM Position WHERE idPatient=".$data['id']." ORDER BY date DESC LIMIT 1);");
@@ -109,7 +90,12 @@ if(!isset($_SESSION['isConnected'])){
                                             <td><?php echo($lastPos['location']); ?></td>
                                         
                                             <input type="hidden" name="patientId" value="<?php echo($data["id"]);  ?>">
-                                            <td><button type="submit" class="btn btn-primary">Consult</a></td>
+                                            <td><button type="submit" class="btn btn-primary 
+                                                                <?php 
+                                                                    if($_SESSION['group'] == "user"){
+                                                                        echo('disabled" disabled="disabled"');
+                                                                    }
+                                                                ?>">Consult</a></td>
                                         </form>
                                         
                                     </tr>

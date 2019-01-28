@@ -1,5 +1,6 @@
 #coding: utf-8
 from command import Command, CommandTypes
+from utils import CoreSateLevel, CoreState
 from collections import OrderedDict
 import sys
 import parser
@@ -11,6 +12,11 @@ from queue import Queue
 sys.path.append("../res")
 import setting
 
+def getQueryAnswer(cmd):
+
+    if(cmd.getName == "etat"):
+        return ""
+
 def main():
 
     fifo_mqtt2core = Queue()
@@ -20,6 +26,9 @@ def main():
 
     print("[Core] Create logger")
     logger = Logger()
+
+    Logger.log(LogLevel.DEBUG, "CORE", "Configuration of the Core")
+    coreState = CoreState()
 
     Logger.log(LogLevel.DEBUG, "CORE", "Create interfaces threads")
     mqtt = intfMqtt(fifo_mqtt2core, fifo_core2mqtt)
@@ -35,11 +44,36 @@ def main():
    
     while(True):
 		
-        Logger.log(LogLevel.DEBUG, "CORE", "Waiting for tag")
-        newcmd = fifo_reader2core.get()
-        Logger.log(LogLevel.DEBUG, "CORE", "Sended to Mqtt")
-        fifo_core2mqtt.put(newcmd)
+        # check if new tag dectection is wainting
+        if(not fifo_reader2core.empty()):
+            Logger.log(LogLevel.DEBUG, "CORE", "New tag from reader")
+            newcmd = fifo_reader2core.get()
+            fifo_core2mqtt.put(newcmd)
 
+        # check if new mqtt message is wainting
+        elif(not fifo_mqtt2core.empty():
+            Logger.log(LogLevel.DEBUG, "CORE", "New mqtt message")
+            newcmd = fifo_mqtt2core.get()
+
+            # if message is a query message
+            if(newcmd.getType() == CommandTypes.GET):
+               answer = newcmd.generateAck();
+               answer.setPayload(getQueryAnswer(cmd))
+               fifo_core2mqtt.put(answer)
+
+            # if message is an ack message
+            elif(newcmd.getType() == CommandTypes.ACK):
+                # not implemented
+                pass
+
+            # message is a push message
+            else:
+                # not implemented
+                pass
+
+
+
+            
     
     mqtt.stop()
     reader.stop()

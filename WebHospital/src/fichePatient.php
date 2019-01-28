@@ -12,7 +12,7 @@ if(!isset($_SESSION['isConnected'])){
 <!DOCTYPE html>
 <html lang="FR">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Hospital Tracking</title>
         <link href="../assert/css/bootstrap.css" rel="stylesheet">
         <link href="../assert/css/home.css" rel="stylesheet">
@@ -61,13 +61,13 @@ if(!isset($_SESSION['isConnected'])){
                         <li class="list-group-item"><bold>Tag</bold> : <?php echo($resultPatientTag['number']);?></li>
                     </ul>
                     <br>
+                    <a class="btn btn-danger" href="patient.php">Back</a>
                 </div>
                 <div class="col col-md-6 align=center">
                     <div class="table-responsive">
                         <table class="table table-light table-hover">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">Id</th>
                                     <th scope="col">Location</th>
                                     <th scope="col">Date</th>                     
                                 </tr>
@@ -84,7 +84,6 @@ if(!isset($_SESSION['isConnected'])){
 
                                 ?>
                                     <tr>
-                                        <th scope="row"><?php echo ($resultPos['id']);?></th>
                                         <td><?php echo($resultLocation['location']);?></td>
                                         <td><?php echo ($resultPos['date']);?></td>
                                     </tr>

@@ -73,7 +73,7 @@ class BddManager(object):
         now = datetime.utcnow()
         
         tmp = self.getBorneFromName(borne)
-        print(tmp[0][0])
+        # print(tmp[0][0])
         if(len(tmp) > 0):
             # recuparation de l id  de la borne
             idBorne = tmp[0][0]
@@ -97,6 +97,12 @@ class BddManager(object):
 
         except Exception as e_query_bdd:
             Logger.log(LogLevel.ERROR, "BDD MANAGER", "Couldn't not process insertion \"{}\" : {}".format(request, e_query_bdd))
+
+    def getLastPosition(self, patientId):
+        var = 'SELECT location FROM Borne WHERE id=(SELECT idBorne FROM Position WHERE idPatient="{}" ORDER BY date DESC LIMIT 1);'.format(patientId)
+        
+        
+        return self.processRequest(var)
     
     def destroy():
         self.cursor.close()
