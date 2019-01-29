@@ -1,6 +1,5 @@
 #coding: utf-8
 from command import Command, CommandTypes
-from utils import CoreSateLevel, CoreState
 from collections import OrderedDict
 import sys
 import parser
@@ -27,21 +26,19 @@ def main():
     print("[Core] Create logger")
     logger = Logger()
 
-    Logger.log(LogLevel.DEBUG, "CORE", "Configuration of the Core")
-    coreState = CoreState()
-
     Logger.log(LogLevel.DEBUG, "CORE", "Create interfaces threads")
     mqtt = intfMqtt(fifo_mqtt2core, fifo_core2mqtt)
     
     reader = InterfaceTagReader(fifo_reader2core)
-    Logger.log(LogLevel.DEBUG, "CORE", "starting")
+    Logger.log(LogLevel.DEBUG, "CORE", "starting mqtt Interfaces")
     mqtt.start()
+    Logger.log(LogLevel.DEBUG, "CORE", "starting RFID Interfaces")
     reader.start()
 
     while(mqtt.connected == False):
         time.sleep(0.25)
     
-   
+    Logger.log(LogLevel.INFO, "CORE", "Core is now ready")
     while(True):
 		
         # check if new tag dectection is wainting

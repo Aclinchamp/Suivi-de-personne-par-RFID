@@ -1569,3 +1569,12 @@
 2019-01-29 00:42:19,600 :: DEBUG :: [CORE] Create BDD
 2019-01-29 00:42:19,611 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
 2019-01-29 00:42:19,612 :: INFO :: [CORE] Core is down
+2019-01-29 00:49:00,419 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:49:00,438 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:49:00,440 :: INFO :: [CORE] Core is down
+2019-01-29 00:49:31,610 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:49:31,623 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:50:06,967 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:50:06,984 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-29 00:50:22,612 :: DEBUG :: [CORE] Create BDD
+2019-01-29 00:50:22,627 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost

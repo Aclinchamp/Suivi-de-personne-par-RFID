@@ -25,7 +25,15 @@ def main(lieu):
         bdd = BddManager(setting.SQL_HOST, setting.SQL_DATABASE, setting.SQL_USER, setting.SQL_PASSWORD)
     
         
-        
+        patientId = bdd.getPatientFromTag("E20040057305016225401321")
+        if(len(patientId) == 0):
+            print("KOKOK")
+        print("id : {}\n".format(patientId[0][0]))
+        response = bdd.getLastPosition(patientId[0][0])
+        if(lieu == response[0][0]):
+            print("Il sort de la pièce")
+        else:
+            print("Il entre dans la pièce")
         #print(response[0][0])
         #bdd.pushPosition(response[0][0], "boitier2")
             

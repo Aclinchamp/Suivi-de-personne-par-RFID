@@ -29,8 +29,13 @@ def main():
         time.sleep(0.25)
 	
     Logger.log(LogLevel.DEBUG, "CORE", "Create bdd manager")
-    bdd = BddManager(setting.SQL_HOST, setting.SQL_DATABASE, setting.SQL_USER, setting.SQL_PASSWORD)
 
+    try:
+        bdd = BddManager(setting.SQL_HOST, setting.SQL_DATABASE, setting.SQL_USER, setting.SQL_PASSWORD)
+    except Exception as e_bdd_unreachable:
+        Logger.log(LogLevel.CRITICAL, "CORE", "Core was not able to connect to database : {}".format(e_bdd_unreachable))
+
+    Logger.log(LogLevel.INFO, "CORE", "End of Core Init")
     while(True):
 
         Logger.log(LogLevel.DEBUG, "CORE", "Waiting for msg from mqtt")
@@ -42,17 +47,20 @@ def main():
 
         # recuperation du patient associe au tag
         patientId = bdd.getPatientFromTag(cmd.getPayload())
-        
-        # on regarde si le patient entre ou quitte la pièce
-        response = bdd.getLastPosition(patientId[0][0])
 
-        if(lieu == response[0][0]):
-            bdd.pushPosition(patient[0][0],"Hall")
+        if(len(patientId) != 0):
+        
+            # on regarde si le patient entre ou quitte la pièce
+            response = bdd.getLastPosition(patientId[0][0])
+
+            if(lieu == response[0][0]):
+                bdd.pushPosition(patient[0][0],"Hall")
+            else:
+                bdd.pushPosition(patient[0][0],boitier)
+
+            Logger.log(LogLevel.INFO, "CORE", "Cmd {} {} processed".format(cmd.getType(), cmd.getName()))
         else:
-            bdd.pushPosition(patient[0][0],boitier)
-
-        
-        Logger.log(LogLevel.INFO, "CORE", "Cmd {} {} processed".format(cmd.getType(), cmd.getName()))
+            Logger.log(LogLevel.WARNING, "CORE", "Cmd {} {} NOT processed : TAG was unknow".format(cmd.getType(), cmd.getName()))
 
     Logger.log(LogLevel.DEBUG, "CORE", "Stopping threads")
     mqtt.stop()

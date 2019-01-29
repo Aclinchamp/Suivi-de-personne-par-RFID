@@ -41,6 +41,7 @@ class InterfaceTagReader(threading.Thread):
             self.TagReader.start_reading(self.onRfidTag, 10, 1000)
             
             while(self.keepRunning == True):
+                # all actions are performed on event
                 pass
               
             Logger.log(LogLevel.DEBUG, "INTF RFID", "Thread was stopped")  
