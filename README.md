@@ -7,11 +7,14 @@ Il m'est donc demandé de concevoir et réaliser une preuve de concept, d'un sys
 
 ## Cahier des charges
 - Conception d'un système proof of concep
-- Mise en place d'un réseau sans fils pour les communcations internes au système
+- Mise en place d'un réseau sans fil pour les communcations internes au système
 - Stockage des informations dans une base de données
-- Conception d'une interface web de visulation
+- Conception d'une application web
 
 ## Contraintes
 - Utilisation de la technologie RFID passive
 - Ne pas être invasif (faire en sorte que le patient ne se sente pas comme du bétail)
+
+## Avancement
+A ce jour, toutes les fonctionnalités spécifiées et analysées ont été développées. Le systèmes est capable de détecter les allées et venues des patients et remonter ces informations pour les centraliser. L'application web permet la visulation de ces informations ainsi que la gestion des patients.
 
