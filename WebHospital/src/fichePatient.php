@@ -31,7 +31,9 @@ if(!isset($_SESSION['isConnected'])){
             <div class="row justify-content-center">
 
                 <div class="col col-md-6 align=center">
-                    <h2>Patient informations</h2>
+                   
+                        <h2>Patient informations</h2>
+                
                     <br>
                     <?php
                         // Connexion a la bdd
@@ -54,16 +56,43 @@ if(!isset($_SESSION['isConnected'])){
                         
                         
                     ?>
-                    <ul class="list-group">
-                        <li class="list-group-item"><bold>ID</bold> : <?php echo($patientId);?></li>
-                        <li class="list-group-item"><bold>First name</bold> : <?php echo($resultPatient['firstName']);?></li>
-                        <li class="list-group-item"><bold>Second name</bold> : <?php echo($resultPatient['lastName']);?></li>
-                        <li class="list-group-item"><bold>Tag</bold> : <?php echo($resultPatientTag['number']);?></li>
-                    </ul>
-                    <br>
-                    <a class="btn btn-danger" href="patient.php">Back</a>
+                    <form action="editPatient.php" method="post">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Id</span>
+                            </div>
+                            <input type="text" name="id" class="form-control" placeholder="FirstName" aria-label="FirstName" aria-describedby="basic-addon1" value="<?php echo($patientId);?>" readonly>
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">First Name</span>
+                            </div>
+                            <input type="text" name="firstName" class="form-control" placeholder="FirstName" aria-label="FirstName" aria-describedby="basic-addon1" value="<?php echo($resultPatient['firstName']);?>">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Last Name</span>
+                            </div>
+                            <input type="text" name="lastName" class="form-control" placeholder="FirstName" aria-label="FirstName" aria-describedby="basic-addon1" value="<?php echo($resultPatient['lastName']);?>">
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Tag</span>
+                            </div>
+                            <input type="text" name="tag" class="form-control" placeholder="FirstName" aria-label="FirstName" aria-describedby="basic-addon1" value="<?php echo($resultPatientTag['number']);?>">
+                        </div>
+                        <br>
+                        <button class="btn btn-outline-primary btn-lg btn-block" type="submit">Edit</button>
+                        <input name="oldTag" type="hidden" value="<?php echo($resultPatientTag['number']);?>">
+                    </form>
+                        </br>
+                        <button class="btn btn-outline-danger btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">Delete patient</button>
+                        </br>
+                        <a class="btn btn-outline-secondary btn-lg btn-block" href="patient.php">Back</a>  
+                    
                 </div>
                 <div class="col col-md-6 align=center">
+                    </br>
                     <div class="table-responsive">
                         <table class="table table-light table-hover">
                             <thead class="thead-dark">
@@ -104,23 +133,30 @@ if(!isset($_SESSION['isConnected'])){
     </body>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+    <form action="deletePatient.php" method="post">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Patient</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <input type="hidden" name="patientId" value="<?php echo($patientId);?>"/>
+                    <input type="hidden" name="patientTagNumber" value="<?php echo($resultPatientTag['number']);?>"/>
+                    <p>
+                        <bold><?php echo($resultPatient['firstName']);?></bold> will be deleted from the system.
+                    </p>
+                    <p>
+                        Do the action ? 
+                    </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </div>
+            </div>
+        </div>
+    </form>
 </div>
-</html>
-

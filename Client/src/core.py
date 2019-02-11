@@ -48,7 +48,7 @@ def main():
             fifo_core2mqtt.put(newcmd)
 
         # check if new mqtt message is wainting
-        elif(not fifo_mqtt2core.empty():
+        elif(not fifo_mqtt2core.empty()):
             Logger.log(LogLevel.DEBUG, "CORE", "New mqtt message")
             newcmd = fifo_mqtt2core.get()
 

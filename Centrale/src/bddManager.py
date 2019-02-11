@@ -103,6 +103,16 @@ class BddManager(object):
         
         
         return self.processRequest(var)
+        
+    def getLocationFromBorneName(self, name):
+        
+        try:
+            request = "SELECT location FROM Borne WHERE Borne.name = \"{}\"".format(name)
+            res = self.processRequest(request)
+            
+        except Exception as e_get_patient_from_tag:
+            raise IOError(e_get_patient_from_tag)
+        return res
     
     def destroy():
         self.cursor.close()

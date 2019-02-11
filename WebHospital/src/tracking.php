@@ -77,7 +77,7 @@
                 <div class="col col-md-6" align="center">
                     <svg id="plan" style="min-height:500px;min-width:500px;"></svg> 
                 </div>
-                <div class="col col-md-6" align="center">
+                <div class="col col-md-5" align="center">
                     <div id="zone">
                         <h2 id="nomPiece">Passer votre curseur sur les pièces</h2>
                         <div id="informations">

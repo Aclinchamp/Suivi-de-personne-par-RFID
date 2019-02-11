@@ -16,6 +16,7 @@ if(!isset($_SESSION['isConnected'])){
         <title>Hospital Tracking</title>
         <link href="../assert/css/bootstrap.css" rel="stylesheet">
         <link href="../assert/css/home.css" rel="stylesheet">
+        <script src="../script/poppers.js"></script>
         <script src="../assert/css/chart.bundle.js"></script>
         <script type="text/javascript" src="../script/chart.js"></script>
         <script src="../assert/js/jquery.js"></script>
@@ -34,16 +35,30 @@ if(!isset($_SESSION['isConnected'])){
                 <div class="col">
                    <h2>Patient list</h2>
                    <br>
-                   <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
+                   
+
+                   <div class="row">
+                    <div class="col col-md-9">
+                        <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0">Search</button>  
+                            </form>
+                        </div>
+                        <div class="col col-md-2">
+                            <!--<a class="btn btn-secondary my-2 my-sm-0" href="addPatientPage.php">Add patient</a> -->
+                            <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#exampleModal"<?php 
+                                                                    if($_SESSION['group'] == "médecin"){
+                                                                        echo('disabled" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Operation not permitted');
+                                                                    }
+                                                                ?>">Add patient</button>
+                        </div>
+                    </div>
                     <br>
                     <div class="table-responsive">
                         <table class="table table-light table-hover">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th scope="col">Id</th>
+                                    
                                     <th scope="col">First Name</th>
                                     <th scope="col">Last Name</th>
                                     <!-- <th scope="col">Tag</th> -->
@@ -83,19 +98,19 @@ if(!isset($_SESSION['isConnected'])){
                             ?>
                                     <tr>
                                         <form action="fichePatient.php" method="post"> 
-                                            <th scope="row"><?php echo($data["id"]); ?></th>
+                                            
                                             <td><?php echo($data["firstName"]); ?></td>
                                             <td><?php echo($data["lastName"]); ?></td>
                                             <!--<td><?php //echo($tagNumber['number']); ?></td>-->
                                             <td><?php echo($lastPos['location']); ?></td>
                                         
                                             <input type="hidden" name="patientId" value="<?php echo($data["id"]);  ?>">
-                                            <td><button type="submit" class="btn btn-primary 
+                                            <td><button type="submit" class="btn btn-outline-primary 
                                                                 <?php 
-                                                                    if($_SESSION['group'] == "user"){
-                                                                        echo('disabled" disabled="disabled"');
+                                                                    if($_SESSION['group'] == "accueil"){
+                                                                        echo('disabled" disabled="disabled" data-toggle="tooltip" data-placement="top" title="Operation not permitted');
                                                                     }
-                                                                ?>">Consult</a></td>
+                                                                ?>">Consult</button></td>
                                         </form>
                                         
                                     </tr>
@@ -104,8 +119,9 @@ if(!isset($_SESSION['isConnected'])){
 									//$requestLastPos->close();
 									//$requestTag->close();
                                     }
-                                ?>
                                 
+                                ?>
+
                             
                             </tbody>
                         </table>
@@ -119,24 +135,36 @@ if(!isset($_SESSION['isConnected'])){
         </footer>
     </body>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form action="addPatient.php" method="post">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Patient informations</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                    <label for="basic-url">First Name</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Patient's first name" name="patientFirstName" required/>
+                    </div>
+                    <label for="basic-url">Last Name</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Patient's last name" name="patientLastName" required/>
+                    </div>
+                    <label for="basic-url">Tag Number</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Patient's  tag number" name="patientTag" required/>
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Save changes</button>
+            </div>
+            </div>
+        </div>
+    </form>
 </div>
-</html>
-

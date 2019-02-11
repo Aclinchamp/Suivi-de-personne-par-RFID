@@ -33,7 +33,7 @@ function handler_hoverInBloc(){
         madiv = "<ul class=\"list-group\">";
         for(i=0; i < patientsBloc.length; i++){
         
-        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("bloc")[i].getAttribute("nom") + "  Prenom : "+ document.getElementsByClassName("bloc")[i].getAttribute("prenom")+ "</li>";
+        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("bloc")[i].getAttribute("nom") + " "+ document.getElementsByClassName("bloc")[i].getAttribute("prenom")+ "</li>";
         }
 
         madiv += "</ul>"
@@ -55,7 +55,7 @@ function handler_hoverInExam(){
         madiv = "<ul class=\"list-group\">";
         for(i=0; i < patientsExam.length; i++){
         
-        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("exam")[i].getAttribute("nom") + "  Prenom : "+ document.getElementsByClassName("exam")[i].getAttribute("prenom")+ "</li>";
+        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("exam")[i].getAttribute("nom") + " "+ document.getElementsByClassName("exam")[i].getAttribute("prenom")+ "</li>";
         }
 
         madiv += "</ul>"
@@ -80,7 +80,7 @@ function handler_hoverInScaner(){
         madiv = "<ul class=\"list-group\">";
         for(i=0; i < patientsScan.length; i++){
         
-        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("scan")[i].getAttribute("nom") + "  Prenom : "+ document.getElementsByClassName("scan")[i].getAttribute("prenom")+ "</li>";
+        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("scan")[i].getAttribute("nom") + " "+ document.getElementsByClassName("scan")[i].getAttribute("prenom")+ "</li>";
         }
 
         madiv += "</ul>"
@@ -104,7 +104,7 @@ function handler_hoverInHall(){
         madiv = "<ul class=\"list-group\">";
         for(i=0; i < patientsHall.length; i++){
         
-        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("hall")[i].getAttribute("nom") + "  Prenom : "+ document.getElementsByClassName("hall")[i].getAttribute("prenom")+ "</li>";
+        madiv += "<li class=\"list-group-item\">Nom : " + document.getElementsByClassName("hall")[i].getAttribute("nom") + " "+ document.getElementsByClassName("hall")[i].getAttribute("prenom")+ "</li>";
         }
 
         madiv += "</ul>"

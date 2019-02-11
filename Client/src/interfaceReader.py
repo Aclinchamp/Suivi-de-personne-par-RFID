@@ -7,7 +7,6 @@ import mercury
 import threading
 from logger import Logger, LogLevel
 from command import Command, CommandTypes
-from utils import CoreState, CoreSateLevel
 
 
 class InterfaceTagReader(threading.Thread):
@@ -23,7 +22,7 @@ class InterfaceTagReader(threading.Thread):
                 self.TagReader = mercury.Reader(setting.READER_TTY)
             except Exception as e_uncorrect_tty:
                 Logger.log(LogLevel.DEBUG, "INTF RFID", "TTY {} is not reachable".format(setting.READER_TTY))
-                CoreState.setState(CoreSateLevel.ERR_2)
+                
 
 
             self.TagReader.set_region(setting.READER_REGION)

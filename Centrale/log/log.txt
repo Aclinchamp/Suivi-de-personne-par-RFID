@@ -1578,3 +1578,73 @@
 2019-01-29 00:50:06,984 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
 2019-01-29 00:50:22,612 :: DEBUG :: [CORE] Create BDD
 2019-01-29 00:50:22,627 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 17:35:07,881 :: DEBUG :: [CORE] Create interface thread
+2019-01-16 17:35:07,901 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2019-01-16 17:35:07,902 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2019-01-16 17:35:08,133 :: DEBUG :: [CORE] Create bdd manager
+2019-01-16 17:35:08,141 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 17:35:08,142 :: INFO :: [CORE] End of Core Init
+2019-01-16 17:35:08,143 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 17:52:31,352 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:05:41,256 :: DEBUG :: [CORE] Create interface thread
+2019-01-16 18:05:41,273 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2019-01-16 18:05:41,274 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2019-01-16 18:05:41,508 :: DEBUG :: [CORE] Create bdd manager
+2019-01-16 18:05:41,516 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 18:05:41,517 :: INFO :: [CORE] End of Core Init
+2019-01-16 18:05:41,518 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:05:51,577 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:06:16,284 :: DEBUG :: [CORE] Create interface thread
+2019-01-16 18:06:16,302 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2019-01-16 18:06:16,303 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2019-01-16 18:06:16,536 :: DEBUG :: [CORE] Create bdd manager
+2019-01-16 18:06:16,545 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 18:06:16,545 :: INFO :: [CORE] End of Core Init
+2019-01-16 18:06:16,546 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:06:19,029 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:06:21,172 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:06:22,814 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:06:23,146 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:06:24,015 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:06:25,011 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:07:41,141 :: DEBUG :: [CORE] Create interface thread
+2019-01-16 18:07:41,159 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2019-01-16 18:07:41,160 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2019-01-16 18:07:41,393 :: DEBUG :: [CORE] Create bdd manager
+2019-01-16 18:07:41,401 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 18:07:41,402 :: INFO :: [CORE] End of Core Init
+2019-01-16 18:07:41,403 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:07:53,053 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016825401387
+2019-01-16 18:07:53,089 :: INFO :: [CORE] Cmd PUSH position processed
+2019-01-16 18:07:53,091 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:08:55,674 :: DEBUG :: [CORE] Create interface thread
+2019-01-16 18:08:55,691 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2019-01-16 18:08:55,692 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2019-01-16 18:08:55,926 :: DEBUG :: [CORE] Create bdd manager
+2019-01-16 18:08:55,934 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 18:08:55,935 :: INFO :: [CORE] End of Core Init
+2019-01-16 18:08:55,936 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:09:01,713 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2019-01-16 18:09:01,729 :: ERROR :: [BDD MANAGER] No matching borne for Hall
+2019-01-16 18:15:07,461 :: DEBUG :: [CORE] Create interface thread
+2019-01-16 18:15:07,478 :: DEBUG :: [INTF MQTT] try to connect to gestion@192.168.4.1:1883
+2019-01-16 18:15:07,479 :: DEBUG :: [INTF MQTT] Connection etablished on gestion@192.168.4.1:1883
+2019-01-16 18:15:07,713 :: DEBUG :: [CORE] Create bdd manager
+2019-01-16 18:15:07,720 :: INFO :: [BDD MANAGER] Connected to BDD as boitier@localhost
+2019-01-16 18:15:07,721 :: INFO :: [CORE] End of Core Init
+2019-01-16 18:15:07,722 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:15:13,912 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2019-01-16 18:15:13,943 :: INFO :: [CORE] Cmd PUSH position processed
+2019-01-16 18:15:13,945 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:15:29,132 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2019-01-16 18:15:29,164 :: INFO :: [CORE] Cmd PUSH position processed
+2019-01-16 18:15:29,165 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:21:00,186 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2019-01-16 18:21:00,218 :: INFO :: [CORE] Cmd PUSH position processed
+2019-01-16 18:21:00,220 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:21:09,936 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2019-01-16 18:21:09,965 :: INFO :: [CORE] Cmd PUSH position processed
+2019-01-16 18:21:09,967 :: DEBUG :: [CORE] Waiting for msg from mqtt
+2019-01-16 18:21:25,291 :: DEBUG :: [INTF MQTT] Received message => BOITIER1 : PUSH : position : E20040057305016225401378
+2019-01-16 18:21:25,320 :: INFO :: [CORE] Cmd PUSH position processed
+2019-01-16 18:21:25,322 :: DEBUG :: [CORE] Waiting for msg from mqtt

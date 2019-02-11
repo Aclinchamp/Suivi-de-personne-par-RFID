@@ -5,8 +5,6 @@ if(!isset($_SESSION['isConnected'])){
     header('Location: ../index.php');
     exit();
 }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +26,7 @@ if(!isset($_SESSION['isConnected'])){
             
             <div class="row justify-content-center">
 
-                <div class="col col-md-5 col-sm-10" align="center">
+                <div class="col col-md-5 col-sm-10"">
                     <h2>Welcome <?php echo($_SESSION['prenom']); ?></h2>
                     </br>
                     <ul class="list-group">
@@ -39,10 +37,10 @@ if(!isset($_SESSION['isConnected'])){
                         <li class="list-group-item">Group : <?php echo$_SESSION['group'];?></li>
                     </ul>
                         </br>
-                    <a class="btn btn-primary" href="disconnect.php">Disconnect</a>
+                    <a class="btn btn-outline-primary" href="disconnect.php">Disconnect</a>
                 </div>
 
-                <div class="col col-md-5 col-sm-10" align="center">
+                <div class="col col-md-5 col-sm-10" >
                 <h2>Overview</h2>
                 <figcaption class="figure-caption">Number of patient per room</figcaption>
                 <canvas id="chart-bornes">

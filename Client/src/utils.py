@@ -1,7 +1,7 @@
 #coding: utf-8
 from logger import Logger, LogLevel
 
-class CoreState(object)
+class CoreState(object):
 
     def __init__(self):
         self.state = CoreSateLevel.OK

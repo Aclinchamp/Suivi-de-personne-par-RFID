@@ -47,16 +47,19 @@ def main():
 
         # recuperation du patient associe au tag
         patientId = bdd.getPatientFromTag(cmd.getPayload())
+        
+        # recuperation du lieu de la borne concernee
+        lieu = bdd.getLocationFromBorneName(boitier)
 
         if(len(patientId) != 0):
         
             # on regarde si le patient entre ou quitte la pièce
             response = bdd.getLastPosition(patientId[0][0])
 
-            if(lieu == response[0][0]):
-                bdd.pushPosition(patient[0][0],"Hall")
+            if(lieu[0][0] == response[0][0]):
+                bdd.pushPosition(patientId[0][0],"boitier4")
             else:
-                bdd.pushPosition(patient[0][0],boitier)
+                bdd.pushPosition(patientId[0][0],boitier)
 
             Logger.log(LogLevel.INFO, "CORE", "Cmd {} {} processed".format(cmd.getType(), cmd.getName()))
         else:
